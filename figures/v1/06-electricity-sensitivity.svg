@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="960" height="540" preserveAspectRatio="xMinYMin meet" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Electricity price and consumption both matter</title><desc>Analyst scenarios for electricity-only cost at assumed plant consumption of 10, 15 and 20 kWh/kg and electricity prices of US$20-100/MWh. At 15 kWh/kg and US$60/MWh, electricity costs US$0.90 per kg.</desc>
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="960" height="540"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-540)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="960" height="540" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="54" y="487" width="34" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,41%,20%); fill-rule: evenodd;"/>
+			<text x="101" y="484" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,968) scale(1,-1)">MAGNESIUM ATLAS  /  U.S. DEVELOPMENT CASE</text>
+			<text x="875.42" y="484" style="font-family: Helvetica; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,968) scale(1,-1)">06 / 06</text>
+			<text x="54" y="450" style="font-family: Helvetica-Bold; font-size: 28px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,900) scale(1,-1)">Electricity price and consumption both matter</text>
+			<text x="54" y="401" style="font-family: Helvetica; font-size: 14px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,802) scale(1,-1)">Illustrative scenarios: electricity cost per kilogram of accepted magnesium</text>
+			<text x="54" y="88" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,176) scale(1,-1)">Assumed total plant electricity: 10, 15 or 20 kWh/kg; these are not measured plant results.</text>
+			<text x="54" y="71" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,142) scale(1,-1)">Electricity only. Excludes direct fuel, feed, reagents, labor, capital and other costs.</text>
+			<path d="M 54,46 L 906,46 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="54" y="27" style="font-family: Helvetica; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,54) scale(1,-1)">Method: analyst scenarios; cost = kWh/kg x US$/MWh / 1,000.</text>
+			<text x="773.7" y="27" style="font-family: Helvetica; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,54) scale(1,-1)">Research cutoff: 27 Sep 2026</text>
+			<g transform="">
+				<g transform="">
+					<g transform="">
+						<path d="M 110,157 L 720,157 Z" style="stroke: rgb(72%,78%,80%); stroke-linecap: butt; stroke-width: 0.8;"/>
+					</g>
+					<g transform="">
+						<path d="M 110,157 L 110,152 Z" style="stroke: rgb(72%,78%,80%); stroke-linecap: butt; stroke-width: 0.8;"/>
+						<path d="M 262.5,157 L 262.5,152 Z" style="stroke: rgb(72%,78%,80%); stroke-linecap: butt; stroke-width: 0.8;"/>
+						<path d="M 415,157 L 415,152 Z" style="stroke: rgb(72%,78%,80%); stroke-linecap: butt; stroke-width: 0.8;"/>
+						<path d="M 567.5,157 L 567.5,152 Z" style="stroke: rgb(72%,78%,80%); stroke-linecap: butt; stroke-width: 0.8;"/>
+						<path d="M 720,157 L 720,152 Z" style="stroke: rgb(72%,78%,80%); stroke-linecap: butt; stroke-width: 0.8;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,110,152)">
+							<text x="-6.672000000000001" y="-12.0" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,-24) scale(1,-1)">20</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,262.5,152)">
+							<text x="-6.672000000000001" y="-12.0" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,-24) scale(1,-1)">40</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,415,152)">
+							<text x="-6.672000000000001" y="-12.0" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,-24) scale(1,-1)">60</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,567.5,152)">
+							<text x="-6.672000000000001" y="-12.0" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,-24) scale(1,-1)">80</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,720,152)">
+							<text x="-10.008" y="-12.0" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,-24) scale(1,-1)">100</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 110,157 L 110,368 Z" style="stroke: rgb(72%,78%,80%); stroke-linecap: butt; stroke-width: 0.8;"/>
+					</g>
+					<g transform="">
+						<path d="M 110,157 L 105,157 Z" style="stroke: rgb(72%,78%,80%); stroke-linecap: butt; stroke-width: 0.8;"/>
+						<path d="M 110,204.954545 L 105,204.954545 Z" style="stroke: rgb(72%,78%,80%); stroke-linecap: butt; stroke-width: 0.8;"/>
+						<path d="M 110,252.909091 L 105,252.909091 Z" style="stroke: rgb(72%,78%,80%); stroke-linecap: butt; stroke-width: 0.8;"/>
+						<path d="M 110,300.863636 L 105,300.863636 Z" style="stroke: rgb(72%,78%,80%); stroke-linecap: butt; stroke-width: 0.8;"/>
+						<path d="M 110,348.818182 L 105,348.818182 Z" style="stroke: rgb(72%,78%,80%); stroke-linecap: butt; stroke-width: 0.8;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,105,157)">
+							<text x="-16.68" y="-4.800000000000001" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,-9) scale(1,-1)">0.0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,105,204.954545)">
+							<text x="-16.68" y="-4.800000000000001" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,-9) scale(1,-1)">0.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,105,252.909091)">
+							<text x="-16.68" y="-4.800000000000001" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,-9) scale(1,-1)">1.0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,105,300.863636)">
+							<text x="-16.68" y="-4.800000000000001" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,-9) scale(1,-1)">1.5</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,105,348.818182)">
+							<text x="-16.68" y="-4.800000000000001" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,-9) scale(1,-1)">2.0</text>
+						</g>
+					</g>
+				</g>
+				<path d="M 110,204.954545 L 720,204.954545 Z" style="stroke: rgb(90%,92%,93%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 110,252.909091 L 720,252.909091 Z" style="stroke: rgb(90%,92%,93%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 110,300.863636 L 720,300.863636 Z" style="stroke: rgb(90%,92%,93%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<path d="M 110,348.818182 L 720,348.818182 Z" style="stroke: rgb(90%,92%,93%); stroke-linecap: butt; stroke-width: 0.25;"/>
+				<g transform="">
+					<polyline points="110 176.1818, 186.25 185.7727, 262.5 195.3636, 338.75 204.9545, 415 214.5455, 491.25 224.1364, 567.5 233.7273, 643.75 243.3182, 720 252.9091" style="stroke: rgb(3%,49%,51%); stroke-linecap: round; stroke-width: 3; fill: None; fill-rule: evenodd;"/>
+					<polyline points="110 185.7727, 186.25 200.1591, 262.5 214.5455, 338.75 228.9318, 415 243.3182, 491.25 257.7045, 567.5 272.0909, 643.75 286.4773, 720 300.8636" style="stroke: rgb(78%,41%,20%); stroke-linecap: round; stroke-width: 3; fill: None; fill-rule: evenodd;"/>
+					<polyline points="110 195.3636, 186.25 214.5455, 262.5 233.7273, 338.75 252.9091, 415 272.0909, 491.25 291.2727, 567.5 310.4545, 643.75 329.6364, 720 348.8182" style="stroke: rgb(29%,40%,65%); stroke-linecap: round; stroke-width: 3; fill: None; fill-rule: evenodd;"/>
+				</g>
+			</g>
+			<text x="110" y="384" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,768) scale(1,-1)">Electricity cost (US$/kg Mg)</text>
+			<text x="335.5505" y="117" style="font-family: Helvetica; font-size: 13px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,234) scale(1,-1)">Electricity price (US$/MWh)</text>
+			<text x="738" y="247.9090909090909" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(3%,49%,51%); stroke:none;" transform="translate(0,495) scale(1,-1)">10 kWh/kg</text>
+			<text x="738" y="295.8636363636364" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(78%,41%,20%); stroke:none;" transform="translate(0,591) scale(1,-1)">15 kWh/kg</text>
+			<text x="738" y="343.8181818181818" style="font-family: Helvetica-Bold; font-size: 16px;fill: rgb(29%,40%,65%); stroke:none;" transform="translate(0,687) scale(1,-1)">20 kWh/kg</text>
+			<circle cx="415.0" cy="243.3181818181818" r="5" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(78%,41%,20%); fill-rule: evenodd;"/>
+			<text x="120" y="332" style="font-family: Helvetica-Bold; font-size: 14px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,664) scale(1,-1)">15 kWh/kg at US$60/MWh</text>
+			<text x="120" y="311" style="font-family: Helvetica; font-size: 14px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,622) scale(1,-1)">= US$0.90/kg electricity cost</text>
+		</g>
+	</g>
+</svg>

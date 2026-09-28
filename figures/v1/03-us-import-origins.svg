@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="960" height="540" preserveAspectRatio="xMinYMin meet" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Israel and Türkiye supplied 78% of U.S. pure-metal imports</title><desc>2021-2024 U.S. pure-metal import shares: Israel 47%, Türkiye 31%, Russia 8%, China 6%, other 8%.</desc>
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="960" height="540"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-540)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="960" height="540" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="54" y="487" width="34" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,41%,20%); fill-rule: evenodd;"/>
+			<text x="101" y="484" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,968) scale(1,-1)">MAGNESIUM ATLAS  /  U.S. DEVELOPMENT CASE</text>
+			<text x="875.42" y="484" style="font-family: Helvetica; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,968) scale(1,-1)">03 / 06</text>
+			<text x="54" y="450" style="font-family: Helvetica-Bold; font-size: 28px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,900) scale(1,-1)">Israel and Türkiye supplied 78%</text>
+			<text x="54" y="417" style="font-family: Helvetica-Bold; font-size: 28px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,834) scale(1,-1)">of U.S. pure-metal imports</text>
+			<text x="54" y="373" style="font-family: Helvetica; font-size: 14px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,746) scale(1,-1)">U.S. import origins, 2021-2024 pooled shares</text>
+			<text x="54" y="88" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,176) scale(1,-1)">USGS metal category: 99.8% purity. This is a multi-year origin mix, not a 2025 snapshot.</text>
+			<text x="54" y="71" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,142) scale(1,-1)">Import origins differ from the geography of world primary production.</text>
+			<path d="M 54,46 L 906,46 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="54" y="27" style="font-family: Helvetica; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,54) scale(1,-1)">Source: USGS, Mineral Commodity Summaries 2026 (S01).</text>
+			<text x="773.7" y="27" style="font-family: Helvetica; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,54) scale(1,-1)">Research cutoff: 27 Sep 2026</text>
+			<text x="148.435" y="327" style="font-family: Helvetica; font-size: 17px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,654) scale(1,-1)">Israel</text>
+			<rect x="210" y="318" width="529.8181818181819" height="28" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="751.8181818181819" y="327" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,654) scale(1,-1)">47%</text>
+			<text x="134.274" y="283" style="font-family: Helvetica; font-size: 17px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,566) scale(1,-1)">Türkiye</text>
+			<rect x="210" y="274" width="349.4545454545455" height="28" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,41%,20%); fill-rule: evenodd;"/>
+			<text x="571.4545454545455" y="283" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,566) scale(1,-1)">31%</text>
+			<text x="138.048" y="239" style="font-family: Helvetica; font-size: 17px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,478) scale(1,-1)">Russia</text>
+			<rect x="210" y="230" width="90.18181818181819" height="28" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(86%,89%,90%); fill-rule: evenodd;"/>
+			<text x="312.1818181818182" y="239" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,478) scale(1,-1)">8%</text>
+			<text x="145.596" y="195" style="font-family: Helvetica; font-size: 17px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,390) scale(1,-1)">China</text>
+			<rect x="210" y="186" width="67.63636363636363" height="28" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(29%,40%,65%); fill-rule: evenodd;"/>
+			<text x="289.6363636363636" y="195" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,390) scale(1,-1)">6%</text>
+			<text x="147.483" y="151" style="font-family: Helvetica; font-size: 17px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,302) scale(1,-1)">Other</text>
+			<rect x="210" y="142" width="90.18181818181819" height="28" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(86%,89%,90%); fill-rule: evenodd;"/>
+			<text x="312.1818181818182" y="151" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,302) scale(1,-1)">8%</text>
+			<path d="M 210,134 L 210,356 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+		</g>
+	</g>
+</svg>

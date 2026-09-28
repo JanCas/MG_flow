@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="960" height="540" preserveAspectRatio="xMinYMin meet" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink"><title>No U.S. primary output, yet 40,000 t consumed</title><desc>Reported U.S. primary consumption fell from 53,000 tonnes in 2023 to 46,000 in 2024 and an estimated 40,000 in 2025. U.S. primary production was zero in all three years.</desc>
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="960" height="540"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-540)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="960" height="540" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="54" y="487" width="34" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,41%,20%); fill-rule: evenodd;"/>
+			<text x="101" y="484" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,968) scale(1,-1)">MAGNESIUM ATLAS  /  U.S. DEVELOPMENT CASE</text>
+			<text x="875.42" y="484" style="font-family: Helvetica; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,968) scale(1,-1)">02 / 06</text>
+			<text x="54" y="450" style="font-family: Helvetica-Bold; font-size: 28px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,900) scale(1,-1)">No U.S. primary output, yet 40,000 t consumed</text>
+			<text x="54" y="401" style="font-family: Helvetica; font-size: 14px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,802) scale(1,-1)">U.S. primary magnesium: production and reported consumption, 2023-2025</text>
+			<text x="54" y="88" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,176) scale(1,-1)">2025 consumption is estimated. Reported primary consumption is not total apparent consumption.</text>
+			<text x="54" y="71" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,142) scale(1,-1)">Domestic recycling is outside these series. The observed consumption trend is downward.</text>
+			<path d="M 54,46 L 906,46 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="54" y="27" style="font-family: Helvetica; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,54) scale(1,-1)">Source: USGS, Mineral Commodity Summaries 2026 (S01).</text>
+			<text x="773.7" y="27" style="font-family: Helvetica; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,54) scale(1,-1)">Research cutoff: 27 Sep 2026</text>
+			<path d="M 122,155 L 860,155 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="103.328" y="151.0" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,302) scale(1,-1)">0</text>
+			<path d="M 122,226.666667 L 860,226.666667 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="96.656" y="222.66666666666669" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,445) scale(1,-1)">20</text>
+			<path d="M 122,298.333333 L 860,298.333333 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="96.656" y="294.33333333333337" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,588) scale(1,-1)">40</text>
+			<path d="M 122,370 L 860,370 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="96.656" y="366.0" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,732) scale(1,-1)">60</text>
+			<text x="122" y="387" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,774) scale(1,-1)">Thousand metric tonnes</text>
+			<rect x="216" y="155" width="108" height="189.91666666666663" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="258.324" y="356.91666666666663" style="font-family: Helvetica-Bold; font-size: 21px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,713) scale(1,-1)">53</text>
+			<text x="253.32" y="130" style="font-family: Helvetica; font-size: 15px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,260) scale(1,-1)">2023</text>
+			<rect x="441" y="155" width="108" height="164.83333333333337" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="483.324" y="331.83333333333337" style="font-family: Helvetica-Bold; font-size: 21px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,663) scale(1,-1)">46</text>
+			<text x="478.32" y="130" style="font-family: Helvetica; font-size: 15px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,260) scale(1,-1)">2024</text>
+			<rect x="666" y="155" width="108" height="143.33333333333337" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="708.324" y="310.33333333333337" style="font-family: Helvetica-Bold; font-size: 21px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,620) scale(1,-1)">40</text>
+			<text x="703.32" y="130" style="font-family: Helvetica; font-size: 15px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,260) scale(1,-1)">2025</text>
+			<path d="M 230,155 L 760,155 Z" style="stroke: rgb(78%,41%,20%); stroke-linecap: butt; stroke-width: 3;"/>
+			<circle cx="270" cy="155" r="6" style="stroke: rgb(78%,41%,20%); stroke-linecap: butt; stroke-width: 3; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="285" y="163" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(78%,41%,20%); stroke:none;" transform="translate(0,326) scale(1,-1)">0</text>
+			<circle cx="495" cy="155" r="6" style="stroke: rgb(78%,41%,20%); stroke-linecap: butt; stroke-width: 3; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="510" y="163" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(78%,41%,20%); stroke:none;" transform="translate(0,326) scale(1,-1)">0</text>
+			<circle cx="720" cy="155" r="6" style="stroke: rgb(78%,41%,20%); stroke-linecap: butt; stroke-width: 3; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="735" y="163" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(78%,41%,20%); stroke:none;" transform="translate(0,326) scale(1,-1)">0</text>
+			<rect x="482" y="385" width="11" height="11" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="502" y="385" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,770) scale(1,-1)">Consumption</text>
+			<path d="M 668,390 L 690,390 Z" style="stroke: rgb(78%,41%,20%); stroke-linecap: butt; stroke-width: 3;"/>
+			<text x="700" y="385" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,770) scale(1,-1)">Production</text>
+		</g>
+	</g>
+</svg>

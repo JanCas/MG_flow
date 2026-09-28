@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="960" height="540" preserveAspectRatio="xMinYMin meet" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Recycling does not all return as pure Mg ingot</title><desc>In 2025, an estimated 53% of U.S. recovered secondary magnesium was in aluminum-base alloys; 47% was in magnesium-based castings, ingot and other materials.</desc>
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="960" height="540"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-540)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="960" height="540" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="54" y="487" width="34" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,41%,20%); fill-rule: evenodd;"/>
+			<text x="101" y="484" style="font-family: Helvetica-Bold; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,968) scale(1,-1)">MAGNESIUM ATLAS  /  U.S. DEVELOPMENT CASE</text>
+			<text x="875.42" y="484" style="font-family: Helvetica; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,968) scale(1,-1)">05 / 06</text>
+			<text x="54" y="450" style="font-family: Helvetica-Bold; font-size: 28px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,900) scale(1,-1)">Recycling does not all return as pure Mg ingot</text>
+			<text x="54" y="401" style="font-family: Helvetica; font-size: 14px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,802) scale(1,-1)">Forms in which U.S. secondary magnesium was recovered, 2025 estimates</text>
+			<text x="54" y="88" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,176) scale(1,-1)">Shares are of recovered magnesium, not the gross weight of aluminum-alloy products.</text>
+			<text x="54" y="71" style="font-family: Helvetica; font-size: 11.5px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,142) scale(1,-1)">New and old scrap are included. This is recovery form, not the separate end-use mix.</text>
+			<path d="M 54,46 L 906,46 Z" style="stroke: rgb(86%,89%,90%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="54" y="27" style="font-family: Helvetica; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,54) scale(1,-1)">Source: USGS, Mineral Commodity Summaries 2026 (S01).</text>
+			<text x="773.7" y="27" style="font-family: Helvetica; font-size: 10px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,54) scale(1,-1)">Research cutoff: 27 Sep 2026</text>
+			<text x="54" y="343" style="font-family: Helvetica; font-size: 14px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,686) scale(1,-1)">Share of recovered secondary magnesium</text>
+			<rect x="54" y="240" width="451.56" height="80" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="255.76799999999997" y="271.0" style="font-family: Helvetica-Bold; font-size: 24px;fill: rgb(100%,100%,100%); stroke:none;" transform="translate(0,542) scale(1,-1)">53%</text>
+			<rect x="505.56" y="240" width="400.44" height="80" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(86%,89%,90%); fill-rule: evenodd;"/>
+			<text x="681.768" y="271.0" style="font-family: Helvetica-Bold; font-size: 24px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,542) scale(1,-1)">47%</text>
+			<text x="54" y="198" style="font-family: Helvetica-Bold; font-size: 21px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,396) scale(1,-1)">In aluminum-base alloys</text>
+			<text x="54" y="173" style="font-family: Helvetica; font-size: 13px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,346) scale(1,-1)">Magnesium stays within an alloy stream.</text>
+			<text x="542" y="198" style="font-family: Helvetica-Bold; font-size: 21px;fill: rgb(12%,19%,23%); stroke:none;" transform="translate(0,396) scale(1,-1)">Mg castings, ingot and other</text>
+			<text x="542" y="173" style="font-family: Helvetica; font-size: 13px;fill: rgb(34%,40%,44%); stroke:none;" transform="translate(0,346) scale(1,-1)">A mixed group, not all pure merchant ingot.</text>
+		</g>
+	</g>
+</svg>

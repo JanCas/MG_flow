@@ -1,0 +1,23 @@
+﻿entity_id,period,metric,value_t,value_max_t,source_id,note,source_url
+dead-sea-magnesium,2025,primary production,17800,,S18,Company approximately; not magnesium chloride,https://financialfilings.com/filings/icl-group-ltd/annual-report/2026/32926978/
+dead-sea-magnesium,2024,primary production,17000,,S19,Company approximately; directly comparable to 2025 metal figure,https://mayafiles.tase.co.il/rpdf/1650001-1651000/P1650877-00.pdf
+tianyu,2017,historical primary production,32000,,S05,Latest dated company primary actual located; NOT current,https://cdn.ymaws.com/www.intlmag.org/resource/resmgr/conf2018/session3-1-lin-ruhai.pdf
+yinguang,2017,historical primary production,31000,,S05,Latest dated company primary actual located; NOT current,https://cdn.ymaws.com/www.intlmag.org/resource/resmgr/conf2018/session3-1-lin-ruhai.pdf
+bada,2017,historical primary production,29800,,S05,Latest dated company primary actual located; NOT current,https://cdn.ymaws.com/www.intlmag.org/resource/resmgr/conf2018/session3-1-lin-ruhai.pdf
+jinwantong,2017,historical primary production,28500,,S05,Latest dated company primary actual located; NOT current,https://cdn.ymaws.com/www.intlmag.org/resource/resmgr/conf2018/session3-1-lin-ruhai.pdf
+huiye,2017,historical primary production,33300,,S05,Latest dated company primary actual located; NOT current,https://cdn.ymaws.com/www.intlmag.org/resource/resmgr/conf2018/session3-1-lin-ruhai.pdf
+regal,2017,historical primary production,26700,,S05,Latest dated company primary actual located; NOT current,https://cdn.ymaws.com/www.intlmag.org/resource/resmgr/conf2018/session3-1-lin-ruhai.pdf
+remt,2025,magnesium-product sales,12373,,S15,Not own primary production,https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000040_c.pdf
+remt,2024,magnesium-product sales,13678,,S15,Comparable sales basis,https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000040_c.pdf
+baowu,2025,mixed nonferrous production,469101.56,,S02,Includes aluminum and other products; excluded from Mg total,https://static.cninfo.com.cn/finalpage/2026-04-29/1225223859.PDF
+baowu,2024,mixed nonferrous production,460970.44,,S02,Includes aluminum and other products,https://static.cninfo.com.cn/finalpage/2026-04-29/1225223859.PDF
+uktmp,2021–2022,crude magnesium process stream,19043,19568,S33,"Range; internal regeneration included; years not allocated; annual range, not two-year aggregate",https://bizup.kz/ru/documents/p2500000339
+uktmp,2021–2022,magnesium reducing-agent stream,16918,18236,S33,"Overlaps crude stream; do not add; annual range, not two-year aggregate",https://bizup.kz/ru/documents/p2500000339
+uktmp,2021–2022,merchant MG90 ingots,108,560,S33,"Range; overlaps crude stream; annual range, not two-year aggregate",https://bizup.kz/ru/documents/p2500000339
+magontec,H2 2025,distributed primary-alloy shipments,700,,S45,"Approximately; six-month shipments, not annual own production",https://magontec.com/wp-content/uploads/2026/02/Magontec-Limited-2025-Annual-Report-Final.pdf
+solikamsk,2019,magnesium sales,15336,,S31,Historical secondary compilation; not production,https://lelementarium.fr/element-fiche/magnesium/
+us-magnesium,2025,national primary production proxy,0,,S01,US national no-production entry; idle plant,https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-magnesium-metal.pdf
+qinghai,2025-02-06 to 2025-04-30,"trial liquid magnesium, one cell",292.705,,S80,"Campaign, not annual; overlaps cast ingots",https://www.cnmn.com.cn/ShowNews1.aspx?id=461529
+qinghai,2025 trial through April,cast magnesium ingot from trial campaign,265,,S80,Overlaps liquid magnesium; do not add or annualize,https://www.cnmn.com.cn/ShowNews1.aspx?id=461529
+remt,H1 2026,magnesium-product sales,1680,,S92,"Six-month sales, not production; indexed filing mirror; primary PDF not retrieved",https://financialfilings.com/filings/rare-earth-magnesium-technology-group-holdings-limited/interim-quarterly-report/2026/60246212/
+remt,H1 2025,magnesium-product sales,6165,,S92,"Six-month sales, not production; indexed filing mirror; primary PDF not retrieved",https://financialfilings.com/filings/rare-earth-magnesium-technology-group-holdings-limited/interim-quarterly-report/2026/60246212/

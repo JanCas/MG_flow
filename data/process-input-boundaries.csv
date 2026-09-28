@@ -1,0 +1,5 @@
+﻿Process / evidence,Input or metric,Reported value (units stated),Product or stage boundary,Interpretation,source_ids,source_urls
+Pidgeon; DLR 2013 case reproduced by Argonne 2014,Dolomite,10.5 t/t Mg ingot,Mining-to-ingot inventory,"Historical modeled/reference case, not a current named-producer consumption rate.",S111,https://publications.anl.gov/anlpubs/2014/09/107574.pdf
+Same historical case,Ferrosilicon,1.05 t/t Mg ingot,Reductant input within the same inventory,Ferrosilicon is produced upstream; its energy use is separate from its mass input.,S111,https://publications.anl.gov/anlpubs/2014/09/107574.pdf
+RIMA; SECEX 2026,Prepared reactive mixture,"85% dolime / 15% FeSi, stated stage-i recipe","Prepared feed blend, before metal production",Not tonnes of rock per tonne of metal. Stage iv reverses the wording; use the explicit stage-i statement with that caveat.,S23,https://www.legisweb.com.br/legislacao/?id=501871
+Qinghai; 2025 trial,MgCl2 melting/purification recovery,99.12%,Chloride preparation stage,"Not brine-to-metal recovery, metal purity, or whole-plant utilization.",S80,https://www.cnmn.com.cn/ShowNews1.aspx?id=461529

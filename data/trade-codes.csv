@@ -1,0 +1,6 @@
+﻿HS category,Material boundary,Analytical caution,source_ids,source_urls
+8104.11,Unwrought magnesium containing at least 99.8% Mg by weight,Can combine different qualifying purity grades; not an identified producer.,S106,https://www.customs.go.jp/tariff/2026_01_01/naccscode202601_9.html
+8104.19,Other unwrought magnesium,Keep alloy/product mass distinct from elemental Mg content.,S106,https://www.customs.go.jp/tariff/2026_01_01/naccscode202601_9.html
+8104.20,Magnesium waste and scrap,Trade in existing material; not new primary production.,S106,https://www.customs.go.jp/tariff/2026_01_01/naccscode202601_9.html
+8104.30,"Magnesium turnings, granules and powders",Form-specific category; do not merge it blindly with ingot.,S106,https://www.customs.go.jp/tariff/2026_01_01/naccscode202601_9.html
+8104.90,Other magnesium articles,"Downstream articles, not a primary-smelter output total.",S106,https://www.customs.go.jp/tariff/2026_01_01/naccscode202601_9.html

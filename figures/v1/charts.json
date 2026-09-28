@@ -1,0 +1,69 @@
+{
+  "version": "v1",
+  "cutoff": "2026-09-27",
+  "width_px": 3840,
+  "height_px": 2160,
+  "aspect_ratio": "16:9",
+  "generator_sha256": "6549b97113364c3ed726c230df3df068c5e7a8d1d689cfa7f2f119ef425b7cae",
+  "input_sha256": "9795f7a98ecd44e2de2d220a0ade135306879404655148d5ac0d7a994eb04c87",
+  "charts": [
+    {
+      "id": "01-global-concentration",
+      "title": "China supplies about 86% of primary magnesium",
+      "alt": "China: 950,000 metric tonnes, approximately 86% of the rounded 1.1 million tonne world total in 2025. Other countries: approximately 150,000 tonnes, derived as the residual.",
+      "caption": "Use to establish global concentration. The residual outside China is calculated from the rounded world total; it is not an independently reported regional total.",
+      "source_ids": [
+        "S01"
+      ],
+      "analysis": false
+    },
+    {
+      "id": "02-us-production-gap",
+      "title": "No U.S. primary output, yet 40,000 t consumed",
+      "alt": "Reported U.S. primary consumption fell from 53,000 tonnes in 2023 to 46,000 in 2024 and an estimated 40,000 in 2025. U.S. primary production was zero in all three years.",
+      "caption": "Use to motivate domestic supply against an existing market, without implying rising demand. Consumption is the USGS reported primary series, not a total addressable market estimate.",
+      "source_ids": [
+        "S01"
+      ],
+      "analysis": false
+    },
+    {
+      "id": "03-us-import-origins",
+      "title": "Israel and Türkiye supplied 78% of U.S. pure-metal imports",
+      "alt": "2021-2024 U.S. pure-metal import shares: Israel 47%, Türkiye 31%, Russia 8%, China 6%, other 8%.",
+      "caption": "Use alongside the global concentration chart. The United States sourced directly from several countries; China’s world share is not its share of U.S. imports.",
+      "source_ids": [
+        "S01"
+      ],
+      "analysis": false
+    },
+    {
+      "id": "04-us-end-uses",
+      "title": "Castings dominate U.S. primary magnesium use",
+      "alt": "Estimated 2025 U.S. reported primary magnesium consumption: castings 69%, aluminum alloying 15%, iron and steel desulfurization 9%, other uses 7%.",
+      "caption": "Use to identify established markets for a new producer. These national application shares are not company-specific sales allocations or customer contracts.",
+      "source_ids": [
+        "S01"
+      ],
+      "analysis": false
+    },
+    {
+      "id": "05-recycling-boundary",
+      "title": "Recycling does not all return as pure Mg ingot",
+      "alt": "In 2025, an estimated 53% of U.S. recovered secondary magnesium was in aluminum-base alloys; 47% was in magnesium-based castings, ingot and other materials.",
+      "caption": "Use to explain why a large recycling total cannot simply be treated as interchangeable primary ingot. It supports a complementary role for primary production and recycling.",
+      "source_ids": [
+        "S01"
+      ],
+      "analysis": false
+    },
+    {
+      "id": "06-electricity-sensitivity",
+      "title": "Electricity price and consumption both matter",
+      "alt": "Analyst scenarios for electricity-only cost at assumed plant consumption of 10, 15 and 20 kWh/kg and electricity prices of US$20-100/MWh. At 15 kWh/kg and US$60/MWh, electricity costs US$0.90 per kg.",
+      "caption": "Use to explain the sensitivity a development program must measure. All inputs are assumptions. This is not a production-cost estimate, a current tariff quotation or a comparison of specific producers.",
+      "source_ids": [],
+      "analysis": true
+    }
+  ]
+}
