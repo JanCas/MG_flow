@@ -40,7 +40,7 @@ def main():
         assert ref in source_ids, ref
     for p in data['profiles'] + data['projects']:
         assert all(s in source_ids for s in p['sources'])
-    sections=data['quality_trade']['sections']+data['processes']['sections']+data['us_development']['sections']
+    sections=data['quality_trade']['sections']+data['processes']['sections']+data['us_development']['sections']+data['magnesium_hydroxide']['sections']
     assert len({s['id'] for s in sections}) == len(sections)
     for s in sections:
         if 'table' not in s: continue
@@ -54,6 +54,20 @@ def main():
     assert '## How magnesium metal is produced' in (ROOT/'report.md').read_text()
     assert '## A U.S. case for electrochemical magnesium' in (ROOT/'report.md').read_text()
     assert 'id="us-development"' in (ROOT/'report.html').read_text()
+    assert '## Magnesium hydroxide as a feedstock' in (ROOT/'report.md').read_text()
+    assert 'id="magnesium-hydroxide"' in (ROOT/'report.html').read_text()
+    # Independently check the published stoichiometry and wet-feed normalization.
+    mg, oxygen, hydrogen, chlorine = 24.305, 15.999, 1.008, 35.45
+    hydroxide = mg + 2 * (oxygen + hydrogen)
+    oxide, water = mg + oxygen, oxygen + 2 * hydrogen
+    assert abs(hydroxide - oxide - water) < 1e-10
+    slurry = hydroxide / (mg * 0.609 * 0.987)
+    expected = [hydroxide/mg, oxide/mg, water/mg, 2*(hydrogen+chlorine)/mg, slurry, slurry/0.90]
+    with (ROOT/'data/hydroxide-mass-balance.csv').open(encoding='utf-8-sig', newline='') as stream:
+        balances = list(csv.DictReader(stream))
+    assert len(balances) == len(expected)
+    for row, value in zip(balances, expected):
+        assert abs(float(row['Calculated value (t/t Mg)']) - value) < 0.0005, row
     us_page=(ROOT/'us-development.html').read_text()
     assert '77,900' in us_page and 'Jan–Jun 2026 (t)' in us_page
     assert 'not observed plant performance' in us_page

@@ -6,6 +6,8 @@ Open [index.html](index.html) in a browser, or read [report.md](report.md). Down
 
 The [production-process guide](processes.html) explains thermal extraction, chloride electrolysis, refining and recycling, with facility-specific examples and two downloadable process tables. General, laboratory and historical reference values are labeled separately.
 
+The [magnesium hydroxide feedstock section](magnesium-hydroxide.html), researched **28 September 2026**, covers brine-derived and natural hydroxide, chloride and oxide conversion routes, commercial specifications, and calculated feed requirements. Two downloadable tables distinguish supplier assays from theoretical and assumed-recovery mass balances. The base producer review retains its 27 September cutoff.
+
 The [purity and commodity-flow section](quality-trade.html) covers specifications, buyer qualification, material routes, regional trade and price benchmarks, with six downloadable reference tables.
 
 The [U.S. electrochemical development case](us-development.html) brings together supply, domestic feedstocks, customer requirements and process choices. It includes revised 2025 / first-half 2026 trade data, four downloadable tables and an explicit distinction between evidence and development recommendations.

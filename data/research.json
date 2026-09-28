@@ -1320,6 +1320,94 @@
       "supports": "Proposed purchased MgO supply from Canadian Baymag; separate from raw-dolomite process description",
       "limitation": "Letter of Understanding, not proof of deliveries. No time basis or explicit ton convention for the stated supply quantity. Earlier demonstration capacity is not carried forward as the latest target.",
       "accessed": "2026-09-27"
+    },
+    {
+      "id": "S121",
+      "title": "Identification and Description of Mineral Processing Sectors and Waste Streams — Magnesium and Magnesia from Brines",
+      "publisher": "US Environmental Protection Agency",
+      "date": "1998-04",
+      "url": "https://archive.epa.gov/epawaste/nonhaz/industrial/special/web/pdf/part6.pdf",
+      "locator": "PDF pp. 66–67 (zero-based pages 65–66), Hydrous Magnesium Chloride Feed and Exhibit 4; PDF p. 71, Magnesia from Brines",
+      "supports": "Historical Dow hydroxide precipitation, washing, acid conversion, chloride purification and hydrous-feed electrolysis; chlorine-to-HCl recycling; hydroxide calcination",
+      "limitation": "Historical process account, not current plant status or a modern equipment specification. Hydrous chloride is an explicit Dow exception, not permission to feed wet hydroxide to a conventional dry-chloride cell.",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "S122",
+      "title": "Our Process — Magnesia Production",
+      "publisher": "Martin Marietta Magnesia Specialties",
+      "date": "Undated",
+      "url": "https://magnesiaspecialties.com/company/process",
+      "locator": "Magnesia Production, three process paragraphs",
+      "supports": "Brine plus dolomitic lime; settling, filtration and washing; hydroxide slurry, powder and MgO product branches",
+      "limitation": "Producer process description. No feed-to-metal recovery, available merchant capacity or metal-plant supply contract disclosed.",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "S123",
+      "title": "FloMag H — Magnesium Hydroxide Slurry for Wastewater Treatment",
+      "publisher": "Martin Marietta Magnesia Specialties",
+      "date": "2025-03-05 version",
+      "url": "https://www.magnesiaspecialties.com/technical-data-sheets/FloMag-H.pdf",
+      "locator": "One-page technical sheet: Aqueous Suspension; Dry Solids Basis; Packaging; Storage",
+      "supports": "Typical versus minimum solids and hydroxide assay; calcium typical value; bulk transport and storage requirements",
+      "limitation": "PDF visually checked. Wastewater-treatment product, not certified metal-cell feed. Typical values are not guaranteed minima. Derived Mg content and slurry requirements are analyst calculations, not supplier metal yields.",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "S124",
+      "title": "MagChem MH 10 ULC — Specialty Grade Magnesium Hydroxide Powder",
+      "publisher": "Martin Marietta Magnesia Specialties",
+      "date": "2025-03-05 version",
+      "url": "https://www.magnesiaspecialties.com/technical-data-sheets/MagChem_MH_10_ULC.pdf",
+      "locator": "One-page technical sheet: Composition (Dry Basis), Free Moisture and Physical Properties",
+      "supports": "Brine/dolomitic-lime origin; dry hydroxide assay; CaO, SiO2, Fe2O3, Al2O3, chloride and sulfate limits; separate free moisture and loss on ignition",
+      "limitation": "PDF visually checked. Oxide equivalents and hydroxide assay must not be added together. Product specification is not a universal magnesium-metal process acceptance standard.",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "S125",
+      "title": "Magnesium hydroxide — LUVOMAG standard grades",
+      "publisher": "Lehmann&Voss&Co. / LEHVOSS Magnesia",
+      "date": "Undated",
+      "url": "https://www.lehvoss.de/en/Magnesia/products/magnesium-hydroxide",
+      "locator": "Typical-values table, natural Brucite row",
+      "supports": "Commercial natural brucite example: hydroxide and impurity values; granular and milled forms",
+      "limitation": "Distributor typical values, not contractual limits or a representative assay of all brucite deposits. Mine, uncommitted tonnage and metal-process qualification are not given.",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "S126",
+      "title": "Influence of Operational Strategies for the Recovery of Magnesium Hydroxide from Brines at a Pilot Scale",
+      "publisher": "C. Morgante et al.; Industrial & Engineering Chemistry Research 61, 15355–15368",
+      "date": "2022-10-04",
+      "url": "https://iris.unipa.it/retrieve/5a7a0590-5b28-409f-8cd2-4ed1512bd3b1/acs.iecr.2c02935.pdf",
+      "locator": "DOI 10.1021/acs.iecr.2c02935; §2.1 and §4, printed pp. 15359 and 15365–15366",
+      "supports": "MgCl2/NaOH precipitation experiments; effects of operating conditions and seed recycling on settling and filtration",
+      "limitation": "Original pilot research using synthetic MgCl2-only solutions. Not real-brine impurity validation, commercial metal output, or evidence of a current delivered feedstock price.",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "S127",
+      "title": "Magnesium Compounds Statistics and Information",
+      "publisher": "US Geological Survey",
+      "date": "Undated overview; accessed 2026-09-28",
+      "url": "https://www.usgs.gov/centers/national-minerals-information-center/magnesium-compounds-statistics-and-information",
+      "locator": "Magnesium Compounds Insights and Data, introductory resource and use paragraphs",
+      "supports": "Commercial mineral and brine resource families; separate magnesium-compound and magnesium-metal statistics",
+      "limitation": "General resource context only. No hydroxide market size, plant availability, price or new 2026 production figure is inferred.",
+      "accessed": "2026-09-28"
+    },
+    {
+      "id": "S128",
+      "title": "Benefits of Using FloMag H Magnesium Hydroxide Slurry for Wastewater Treatment",
+      "publisher": "Martin Marietta Magnesia Specialties",
+      "date": "2022-02-07",
+      "url": "https://magnesiaspecialties.com/blogs/benefits-of-flomag-magnesium-hydroxide-slurry-for-wastewater-treatment",
+      "locator": "Synthetic High-Purity paragraph",
+      "supports": "Manistee, Michigan manufacturing location and underlying natural magnesium-rich brine",
+      "limitation": "Dated supplier description. Marketing comparisons and exclusivity claims are not adopted; no available tonnage or metal-producer customer relationship is established.",
+      "accessed": "2026-09-28"
     }
   ],
   "profiles": [
@@ -3210,6 +3298,185 @@
         ],
         "after": [
           "The proposed objective is dependable U.S. primary magnesium from a documented feed chain, with repeatable buyer-qualified output and competitive delivered cost. Electrochemical development is well motivated because it builds on a proven metal-extraction principle and can address domestic chloride or oxide resources. The decisive innovation must be demonstrated across the entire feed-to-product system."
+        ]
+      }
+    ]
+  },
+  "magnesium_hydroxide": {
+    "title": "Magnesium hydroxide as a feedstock",
+    "lead": "Mg(OH)₂ can connect brine recovery or mineral supply to magnesium-metal production. Compare its origins, preparation routes, commercial grades and usable magnesium content before choosing a feed.",
+    "cutoff": "2026-09-28",
+    "sections": [
+      {
+        "id": "hydroxide-role",
+        "title": "Where hydroxide fits",
+        "paragraphs": [
+          "Research supplement: 28 September 2026. Magnesium hydroxide is a magnesium compound, not metal. It can be purchased as powder or aqueous slurry, recovered as a precipitate from brine, or obtained from the natural mineral brucite. The useful comparison is the cost and quality of magnesium delivered to the chosen extraction process. Compound production is kept separate from the atlas’s primary-metal totals. [S122] [S125] [S127]",
+          "Hydroxide can provide a solid intermediate that is washed, sampled and transported before metal extraction. Its value depends on what happens next: dissolution into chloride, or calcination into MgO followed by a compatible metal-making process. A hydroxide assay does not establish the purity or yield of the eventual ingot. [S121] [S122]"
+        ],
+        "paths": [
+          [
+            "Recover the magnesium",
+            "Brine + alkaline reagent → precipitate → settle, filter and wash → Mg(OH)₂."
+          ],
+          [
+            "Prepare chloride",
+            "Mg(OH)₂ + HCl → MgCl₂ solution → purification and dehydration → chloride electrolysis."
+          ],
+          [
+            "Prepare oxide",
+            "Mg(OH)₂ + heat → MgO + water vapor → compatible oxide-fed extraction process."
+          ]
+        ]
+      },
+      {
+        "id": "hydroxide-origins",
+        "title": "Origins and preparation",
+        "paragraphs": [
+          "Synthetic hydroxide from brine is already a commercial compound route. Martin Marietta describes reacting natural brine with dolomitic lime and water, then settling, filtering and washing the solids. Its Manistee, Michigan operation is a documented domestic example. This identifies a potential feedstock supply chain; it does not establish spare capacity or a contract to supply a metal producer. [S122] [S128]",
+          "Natural brucite takes a mineral route. LEHVOSS lists granular and milled natural grades alongside synthetic products. A named grade’s assay should guide screening: geological availability alone says little about the delivered impurity load. Hydroxide made by hydrating purchased MgO is another route described in the technical literature; for an oxide-fed plant, buying that hydroxide and calcining it back to MgO adds a conversion loop that needs a specific benefit. The latter is an engineering inference. [S125] [S126]",
+          "For new brine recovery, precipitation is only the first step. In 2022 pilot experiments, Morgante and colleagues found that recycling product as seed improved settling and filterability. Their feeds were synthetic MgCl₂-only solutions. The result supports attention to particle handling; it does not prove impurity removal from actual seawater or desalination concentrate. Test the real brine, reagent and wash circuit together. [S126]"
+        ]
+      },
+      {
+        "id": "hydroxide-conversion",
+        "title": "Two routes toward metal",
+        "paragraphs": [],
+        "steps": [
+          [
+            "Convert to chloride",
+            "The simplified reaction is Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O. EPA’s historical Dow account describes washed hydroxide, acid treatment, removal of calcium-bearing solids, further sulfate/boron purification, drying and electrolysis. The conversion creates water as well as chloride; downstream preparation remains necessary. [S121]"
+          ],
+          [
+            "Match the chloride to the cell",
+            "Most conventional chloride routes require tightly controlled dry feed. Historical Dow cells instead accepted partially hydrated chloride, with associated wet chlorine handling. That exception does not mean a wet hydroxide slurry can be fed directly to a conventional dry-chloride cell. Acid demand also needs a recycle boundary: Dow returned cell chlorine through an HCl-production step. [S121] [S107]"
+          ],
+          [
+            "Or calcine to MgO",
+            "Mg(OH)₂ → MgO + H₂O. Removing free moisture is drying; removing chemically bound water is dehydroxylation. Neither step makes metal. An MgO-fed extraction process must then remove oxygen. The atlas’s INFINIUM example is historical oxide-electrolysis research, not proof that a proposed hydroxide-to-metal plant is commercially qualified. [S122] [S116]"
+          ],
+          [
+            "Validate the prepared feed",
+            "Engineering implication: measure residual moisture, chemical impurities, particle size and process reactivity after preparation. Hydroxide-derived MgO also lacks the calcium-oxide component of calcined dolomite; it cannot be substituted by equal mass into a conventional Pidgeon charge without reformulating and testing that charge. [S111]"
+          ]
+        ],
+        "after": [
+          "The hydroxide-to-oxide reaction releases water rather than carbonate CO₂. That chemical fact is not a zero-emissions claim: upstream lime or MgO production, reagent manufacture, drying, calcination and metal extraction still belong in the assessment. [S122] [S111]"
+        ]
+      },
+      {
+        "id": "hydroxide-products",
+        "title": "Commercial grades: read the basis",
+        "paragraphs": [
+          "These are examples for feed screening, not a supplier ranking or confirmed metal-feed qualification. Keep typical values separate from contractual limits, and dry-solids chemistry separate from the mass of a delivered slurry. A wastewater-treatment or specialty-chemical grade may still require further purification. [S123] [S124] [S125]"
+        ],
+        "table": {
+          "csv": "hydroxide-products.csv",
+          "headers": [
+            "Supplier / product",
+            "Form and assay basis",
+            "Published values (wt %)",
+            "Feedstock interpretation"
+          ],
+          "rows": [
+            [
+              "Martin Marietta / FloMag H",
+              "Aqueous slurry; Mg(OH)₂ assay on dry solids",
+              "Dry solids: 60.9 typical, 58.5 minimum. Mg(OH)₂ in solids: 98.7 typical, 98.5 minimum. CaO: 0.6 typical on dry solids.",
+              "2025-03-05 sheet; treatment product. Bulk rail/truck supply; extended storage needs agitation and freeze protection. [S123]"
+            ],
+            [
+              "Martin Marietta / MagChem MH 10 ULC",
+              "Powder; dry-basis chemistry; free moisture reported separately",
+              "Mg(OH)₂: 99.1 typical, 98.0 minimum. Maximum CaO 0.30, SiO₂ 0.35, Fe₂O₃ 0.20, Al₂O₃ 0.15, Cl 0.35; sulfate as SO₃ 0.25. Free moisture: 1.5 maximum.",
+              "2025-03-05 sheet. Defined calcium and impurity limits aid screening; they do not establish cell acceptance. MgO equivalent is not an additional constituent. [S124]"
+            ],
+            [
+              "LEHVOSS / Brucite",
+              "Natural granular or milled mineral; supplier typical values",
+              "Mg(OH)₂ 92.5; CaO 3.0; SiO₂ 5.5; Fe₂O₃ 0.35; loss on ignition 30.0.",
+              "Undated product table. Values are not guaranteed limits or a universal brucite composition; request the analytical basis and a lot certificate. [S125]"
+            ]
+          ]
+        },
+        "after": [
+          "Request a certificate of analysis for representative lots, including elements absent from the public sheet. Loss on ignition is not a free-moisture specification: pure hydroxide itself loses about 30.89% of its mass as chemically bound water when converted to MgO. This percentage is calculated from the formula, not a measured shipment value. [S124]"
+        ]
+      },
+      {
+        "id": "hydroxide-mass-balance",
+        "title": "How much feed per tonne of magnesium?",
+        "paragraphs": [
+          "The following are analyst calculations, not observed industrial consumption. Rounded atomic masses Mg = 24.305, O = 15.999, H = 1.008 and Cl = 35.45 g/mol give Mg(OH)₂ = 58.319 g/mol. Pure dry hydroxide therefore contains 41.676% Mg and has 69.110% MgO equivalent. Neither percentage is product purity.",
+          "For a hydroxide feed, t delivered feed/t recovered Mg = 1 ÷ (s × p × 0.41676 × R), where s is the dry-solids mass fraction, p is the Mg(OH)₂ fraction of those solids, and R is the fraction of that magnesium recovered into accepted metal. This simplified balance counts magnesium in Mg(OH)₂ only; reconcile any other magnesium-bearing phases separately. Supplier assays below provide inputs, not evidence for R. [S123]"
+        ],
+        "table": {
+          "csv": "hydroxide-mass-balance.csv",
+          "headers": [
+            "Case / quantity",
+            "Calculated value (t/t Mg)",
+            "Assumptions and boundary"
+          ],
+          "rows": [
+            [
+              "Pure dry Mg(OH)₂ feed",
+              "2.399",
+              "s = p = R = 1; theoretical minimum hydroxide requirement. Chemistry context: [S121]"
+            ],
+            [
+              "MgO intermediate from that hydroxide",
+              "1.658",
+              "Complete calcination; one Mg atom retained per formula unit; no impurity or recovery loss. Chemistry context: [S122]"
+            ],
+            [
+              "Bound water released by that calcination",
+              "0.741",
+              "Excludes free moisture; hydroxide mass = oxide mass + water mass. Chemistry context: [S122]"
+            ],
+            [
+              "Pure HCl equivalent for chloride conversion",
+              "3.000",
+              "Two moles HCl per mole Mg(OH)₂; gross stoichiometric acid requirement. Excludes dilution water and impurity reactions; not net purchased acid after recycling. [S121]"
+            ],
+            [
+              "FloMag H slurry using typical assays",
+              "3.992",
+              "s = 0.609; p = 0.987; R = 1 assumed. Not guaranteed shipment chemistry or measured metal recovery. [S123]"
+            ],
+            [
+              "Same slurry, illustrative 90% Mg recovery",
+              "4.435",
+              "s = 0.609; p = 0.987; R = 0.90 is an analyst assumption, not supplier or plant performance. [S123]"
+            ]
+          ]
+        },
+        "after": [
+          "At the sheet’s two minimum assay limits, s = 0.585 and p = 0.985, the R = 1 calculation becomes 4.164 t slurry/t Mg. Use the actual contracted specification and measured process recovery for purchasing decisions. [S123]"
+        ]
+      },
+      {
+        "id": "hydroxide-development",
+        "title": "What makes it a useful U.S. feedstock?",
+        "paragraphs": [
+          "The domestic brine-to-hydroxide chain makes purchased Mg(OH)₂ a credible candidate for development trials. The decision between that intermediate, direct chloride preparation and purchased MgO remains site-specific. The following screening steps are engineering recommendations, not published acceptance standards or a finding that one route is cheapest. [S128] [S122]"
+        ],
+        "steps": [
+          [
+            "Specify the feed and product together",
+            "Request dry/wet basis, Mg-bearing phases, calcium, iron, silica, aluminum, chloride, sulfate, boron and any organic additives or coatings. Add trace-metal limits required by the intended metal buyer. An impurity can affect preparation, the cell or final metal; do not assume it all transfers to ingot. [S124] [S121]"
+          ],
+          [
+            "Run representative material through the entire route",
+            "Measure filtration and wash losses, acid consumption or calcination behavior, prepared-feed chemistry, extraction recovery and accepted metal. Track impurities into reject streams as well as product. Synthetic-feed precipitation evidence cannot substitute for these trials. [S126]"
+          ],
+          [
+            "Compare delivered cost on recovered Mg",
+            "Multiply a delivered feed quote in $/t by the calculated t feed/t Mg. Add preparation, heat, electricity, consumables and waste treatment; credit only defensible coproduct or reagent recovery. A slurry’s water adds freight and water handling; powder moves some processing upstream. No verified bulk hydroxide quote or complete hydroxide-to-metal cost was established in this review."
+          ],
+          [
+            "Confirm supply at the intended scale",
+            "Obtain plant origin, available annual dry tonnage, lot variability and transport terms. A product listing establishes an offering, not uncommitted capacity. Confirm that an otherwise attractive powder has no coating or additive incompatible with the process."
+          ]
         ]
       }
     ]

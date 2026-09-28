@@ -1,6 +1,6 @@
 # Data dictionary
 
-Research cutoff: 2026-09-27. CSV encoding: UTF-8 with BOM. Delimiter: comma. Quoted cells may contain commas; use a CSV parser.
+Base research cutoff: 2026-09-27; magnesium hydroxide supplement: 2026-09-28. CSV encoding: UTF-8 with BOM. Delimiter: comma. Quoted cells may contain commas; use a CSV parser.
 
 - `research.json`: canonical full research text, profiles, projects, national figures, numeric observations and source register. `[Snn]` tokens refer to source IDs.
 - `producers.csv`: company/facility directory and classification; one row per profile, sometimes a consolidated group, never automatically additive.
@@ -23,11 +23,15 @@ Research cutoff: 2026-09-27. CSV encoding: UTF-8 with BOM. Delimiter: comma. Quo
 - `us-trade.csv`: revised 2025 and first-half 2026 imports from USGS Q2 2026, preserving category-specific weight bases; not a primary-ingot market size.
 - `us-route-options.csv`: chloride electrolysis, oxide electrolysis and an alternative thermal route; commercial precedents versus research/development.
 - `us-development-criteria.csv`: proposed engineering evidence requirements, with units and supporting context; not observed performance or published pass/fail thresholds.
+- `hydroxide-products.csv`: commercial hydroxide examples; slurry solids, dry chemistry, typical values and specification limits retain their original bases. No metal-feed qualification or available tonnage is inferred.
+- `hydroxide-mass-balance.csv`: analyst stoichiometric and slurry calculations in t/t Mg; theoretical recovery and an assumed 90% case, not measured industrial consumption. Gross HCl demand is distinct from net purchased acid.
 
 The six quality/trade exports use descriptive column headers, including units, plus source IDs and URLs. Their source text lives under `quality_trade` in `research.json`. Percentage limits, ranges and inequalities remain text to preserve their meaning. Empty or undisclosed limits are not zero.
 
 The two process exports follow the same convention and live under `processes`. The historical DLR 2013 case is separate from current producer data. RIMA's recipe uses the explicit stage-i statement and flags the conflicting stage-iv wording.
 
 The four U.S. development exports live under `us_development`. Recommendations are analyst synthesis, distinct from source observations. The illustrative electricity calculation uses assumed inputs, not a plant estimate or current tariff. The Big Blue project retains the company's undefined “tons/year” label; it is not converted into the metric numeric-observation table.
+
+The two hydroxide exports live under `magnesium_hydroxide`, with its own 2026-09-28 cutoff. Mass-balance source links identify the chemical route or supplier inputs, not published plant yields. These calculations are excluded from `quantities.csv` and primary-metal totals. See the section for atomic masses, formula and recovery assumptions.
 
 Unknown company annual quantities are omitted from `quantities.csv`, and explained in `output.csv`; absence does not mean zero. Values are not normalized to elemental magnesium unless the original source uses that basis. Grades retain Mg, MgO, MgCl2, alloy or product basis. No confidential number is inferred from plant capacity.

@@ -1,0 +1,7 @@
+﻿Case / quantity,Calculated value (t/t Mg),Assumptions and boundary,source_ids,source_urls
+Pure dry Mg(OH)₂ feed,2.399,s = p = R = 1; theoretical minimum hydroxide requirement. Chemistry context:,S121,https://archive.epa.gov/epawaste/nonhaz/industrial/special/web/pdf/part6.pdf
+MgO intermediate from that hydroxide,1.658,Complete calcination; one Mg atom retained per formula unit; no impurity or recovery loss. Chemistry context:,S122,https://magnesiaspecialties.com/company/process
+Bound water released by that calcination,0.741,Excludes free moisture; hydroxide mass = oxide mass + water mass. Chemistry context:,S122,https://magnesiaspecialties.com/company/process
+Pure HCl equivalent for chloride conversion,3.000,Two moles HCl per mole Mg(OH)₂; gross stoichiometric acid requirement. Excludes dilution water and impurity reactions; not net purchased acid after recycling.,S121,https://archive.epa.gov/epawaste/nonhaz/industrial/special/web/pdf/part6.pdf
+FloMag H slurry using typical assays,3.992,s = 0.609; p = 0.987; R = 1 assumed. Not guaranteed shipment chemistry or measured metal recovery.,S123,https://www.magnesiaspecialties.com/technical-data-sheets/FloMag-H.pdf
+"Same slurry, illustrative 90% Mg recovery",4.435,"s = 0.609; p = 0.987; R = 0.90 is an analyst assumption, not supplier or plant performance.",S123,https://www.magnesiaspecialties.com/technical-data-sheets/FloMag-H.pdf

@@ -1,6 +1,6 @@
 # Global magnesium metal producers
 
-Research cutoff: **27 September 2026**. Tonnages are metric unless an explicitly labeled source uses an undefined “tons” basis.
+Base research cutoff: **27 September 2026**. Magnesium hydroxide supplement: **28 September 2026**. Tonnages are metric unless an explicitly labeled source uses an undefined “tons” basis.
 
 Read the [accuracy, freshness and readability review log](review.md), or browse the [slide-ready charts](charts.html) with [versioned data and methods](figures/v1/MANIFEST.md).
 
@@ -10,6 +10,7 @@ Read the [accuracy, freshness and readability review log](review.md), or browse 
 - [Leading producers and source coverage](#leading-producers-and-source-coverage)
 - [Country context](#country-context)
 - [How magnesium metal is produced](#how-magnesium-metal-is-produced)
+- [Magnesium hydroxide as a feedstock](#magnesium-hydroxide-as-a-feedstock)
 - [Purity requirements and commodity flows](#purity-requirements-and-commodity-flows)
 - [A U.S. case for electrochemical magnesium](#a-us-case-for-electrochemical-magnesium)
 - [Comparisons](#comparisons)
@@ -179,6 +180,87 @@ For chloride plants, the preparation section must deliver a salt that the cells 
 Alternative feedstocks and proposed processes remain in the project directory. For example, Verde’s disclosed aluminothermic trial uses aluminum as reductant, while other projects emphasize residue upgrading or chloride production. A successful concentrate, MgO or chloride stage is progress toward metal production; it is not itself magnesium-metal output. [S75](https://cdn.ymaws.com/www.intlmag.org/resource/collection/1B278489-BEAC-4779-8813-E1E6F7D06DEA/IMA-Verde-Magnesium-Alex-Rosu-Tues-11-20-11-40.pdf) [S56](https://financialfilings.com/filings/latrobe-magnesium-limited/annual-report/2026/61546901/)
 
 Public evidence still does not establish current plant-wide recovery, energy consumption, reagent consumption or impurity-removal performance for most producers. Those values remain undisclosed here. The deeper process description explains the disclosed route without turning a generic flowsheet into an audited plant balance.
+
+## Magnesium hydroxide as a feedstock
+
+Mg(OH)₂ can connect brine recovery or mineral supply to magnesium-metal production. Compare its origins, preparation routes, commercial grades and usable magnesium content before choosing a feed.
+
+### Where hydroxide fits
+
+Research supplement: 28 September 2026. Magnesium hydroxide is a magnesium compound, not metal. It can be purchased as powder or aqueous slurry, recovered as a precipitate from brine, or obtained from the natural mineral brucite. The useful comparison is the cost and quality of magnesium delivered to the chosen extraction process. Compound production is kept separate from the atlas’s primary-metal totals. [S122](https://magnesiaspecialties.com/company/process) [S125](https://www.lehvoss.de/en/Magnesia/products/magnesium-hydroxide) [S127](https://www.usgs.gov/centers/national-minerals-information-center/magnesium-compounds-statistics-and-information)
+
+Hydroxide can provide a solid intermediate that is washed, sampled and transported before metal extraction. Its value depends on what happens next: dissolution into chloride, or calcination into MgO followed by a compatible metal-making process. A hydroxide assay does not establish the purity or yield of the eventual ingot. [S121](https://archive.epa.gov/epawaste/nonhaz/industrial/special/web/pdf/part6.pdf) [S122](https://magnesiaspecialties.com/company/process)
+
+**Recover the magnesium:** Brine + alkaline reagent → precipitate → settle, filter and wash → Mg(OH)₂.
+
+**Prepare chloride:** Mg(OH)₂ + HCl → MgCl₂ solution → purification and dehydration → chloride electrolysis.
+
+**Prepare oxide:** Mg(OH)₂ + heat → MgO + water vapor → compatible oxide-fed extraction process.
+
+### Origins and preparation
+
+Synthetic hydroxide from brine is already a commercial compound route. Martin Marietta describes reacting natural brine with dolomitic lime and water, then settling, filtering and washing the solids. Its Manistee, Michigan operation is a documented domestic example. This identifies a potential feedstock supply chain; it does not establish spare capacity or a contract to supply a metal producer. [S122](https://magnesiaspecialties.com/company/process) [S128](https://magnesiaspecialties.com/blogs/benefits-of-flomag-magnesium-hydroxide-slurry-for-wastewater-treatment)
+
+Natural brucite takes a mineral route. LEHVOSS lists granular and milled natural grades alongside synthetic products. A named grade’s assay should guide screening: geological availability alone says little about the delivered impurity load. Hydroxide made by hydrating purchased MgO is another route described in the technical literature; for an oxide-fed plant, buying that hydroxide and calcining it back to MgO adds a conversion loop that needs a specific benefit. The latter is an engineering inference. [S125](https://www.lehvoss.de/en/Magnesia/products/magnesium-hydroxide) [S126](https://iris.unipa.it/retrieve/5a7a0590-5b28-409f-8cd2-4ed1512bd3b1/acs.iecr.2c02935.pdf)
+
+For new brine recovery, precipitation is only the first step. In 2022 pilot experiments, Morgante and colleagues found that recycling product as seed improved settling and filterability. Their feeds were synthetic MgCl₂-only solutions. The result supports attention to particle handling; it does not prove impurity removal from actual seawater or desalination concentrate. Test the real brine, reagent and wash circuit together. [S126](https://iris.unipa.it/retrieve/5a7a0590-5b28-409f-8cd2-4ed1512bd3b1/acs.iecr.2c02935.pdf)
+
+### Two routes toward metal
+
+1. **Convert to chloride.** The simplified reaction is Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O. EPA’s historical Dow account describes washed hydroxide, acid treatment, removal of calcium-bearing solids, further sulfate/boron purification, drying and electrolysis. The conversion creates water as well as chloride; downstream preparation remains necessary. [S121](https://archive.epa.gov/epawaste/nonhaz/industrial/special/web/pdf/part6.pdf)
+
+2. **Match the chloride to the cell.** Most conventional chloride routes require tightly controlled dry feed. Historical Dow cells instead accepted partially hydrated chloride, with associated wet chlorine handling. That exception does not mean a wet hydroxide slurry can be fed directly to a conventional dry-chloride cell. Acid demand also needs a recycle boundary: Dow returned cell chlorine through an HCl-production step. [S121](https://archive.epa.gov/epawaste/nonhaz/industrial/special/web/pdf/part6.pdf) [S107](https://www.intlmag.org/page/basics_about_mg_ima)
+
+3. **Or calcine to MgO.** Mg(OH)₂ → MgO + H₂O. Removing free moisture is drying; removing chemically bound water is dehydroxylation. Neither step makes metal. An MgO-fed extraction process must then remove oxygen. The atlas’s INFINIUM example is historical oxide-electrolysis research, not proof that a proposed hydroxide-to-metal plant is commercially qualified. [S122](https://magnesiaspecialties.com/company/process) [S116](https://www.osti.gov/servlets/purl/1431302)
+
+4. **Validate the prepared feed.** Engineering implication: measure residual moisture, chemical impurities, particle size and process reactivity after preparation. Hydroxide-derived MgO also lacks the calcium-oxide component of calcined dolomite; it cannot be substituted by equal mass into a conventional Pidgeon charge without reformulating and testing that charge. [S111](https://publications.anl.gov/anlpubs/2014/09/107574.pdf)
+
+The hydroxide-to-oxide reaction releases water rather than carbonate CO₂. That chemical fact is not a zero-emissions claim: upstream lime or MgO production, reagent manufacture, drying, calcination and metal extraction still belong in the assessment. [S122](https://magnesiaspecialties.com/company/process) [S111](https://publications.anl.gov/anlpubs/2014/09/107574.pdf)
+
+### Commercial grades: read the basis
+
+These are examples for feed screening, not a supplier ranking or confirmed metal-feed qualification. Keep typical values separate from contractual limits, and dry-solids chemistry separate from the mass of a delivered slurry. A wastewater-treatment or specialty-chemical grade may still require further purification. [S123](https://www.magnesiaspecialties.com/technical-data-sheets/FloMag-H.pdf) [S124](https://www.magnesiaspecialties.com/technical-data-sheets/MagChem_MH_10_ULC.pdf) [S125](https://www.lehvoss.de/en/Magnesia/products/magnesium-hydroxide)
+
+| Supplier / product | Form and assay basis | Published values (wt %) | Feedstock interpretation |
+| --- | --- | --- | --- |
+| Martin Marietta / FloMag H | Aqueous slurry; Mg(OH)₂ assay on dry solids | Dry solids: 60.9 typical, 58.5 minimum. Mg(OH)₂ in solids: 98.7 typical, 98.5 minimum. CaO: 0.6 typical on dry solids. | 2025-03-05 sheet; treatment product. Bulk rail/truck supply; extended storage needs agitation and freeze protection. [S123](https://www.magnesiaspecialties.com/technical-data-sheets/FloMag-H.pdf) |
+| Martin Marietta / MagChem MH 10 ULC | Powder; dry-basis chemistry; free moisture reported separately | Mg(OH)₂: 99.1 typical, 98.0 minimum. Maximum CaO 0.30, SiO₂ 0.35, Fe₂O₃ 0.20, Al₂O₃ 0.15, Cl 0.35; sulfate as SO₃ 0.25. Free moisture: 1.5 maximum. | 2025-03-05 sheet. Defined calcium and impurity limits aid screening; they do not establish cell acceptance. MgO equivalent is not an additional constituent. [S124](https://www.magnesiaspecialties.com/technical-data-sheets/MagChem_MH_10_ULC.pdf) |
+| LEHVOSS / Brucite | Natural granular or milled mineral; supplier typical values | Mg(OH)₂ 92.5; CaO 3.0; SiO₂ 5.5; Fe₂O₃ 0.35; loss on ignition 30.0. | Undated product table. Values are not guaranteed limits or a universal brucite composition; request the analytical basis and a lot certificate. [S125](https://www.lehvoss.de/en/Magnesia/products/magnesium-hydroxide) |
+
+[Download table](data/hydroxide-products.csv)
+
+Request a certificate of analysis for representative lots, including elements absent from the public sheet. Loss on ignition is not a free-moisture specification: pure hydroxide itself loses about 30.89% of its mass as chemically bound water when converted to MgO. This percentage is calculated from the formula, not a measured shipment value. [S124](https://www.magnesiaspecialties.com/technical-data-sheets/MagChem_MH_10_ULC.pdf)
+
+### How much feed per tonne of magnesium?
+
+The following are analyst calculations, not observed industrial consumption. Rounded atomic masses Mg = 24.305, O = 15.999, H = 1.008 and Cl = 35.45 g/mol give Mg(OH)₂ = 58.319 g/mol. Pure dry hydroxide therefore contains 41.676% Mg and has 69.110% MgO equivalent. Neither percentage is product purity.
+
+For a hydroxide feed, t delivered feed/t recovered Mg = 1 ÷ (s × p × 0.41676 × R), where s is the dry-solids mass fraction, p is the Mg(OH)₂ fraction of those solids, and R is the fraction of that magnesium recovered into accepted metal. This simplified balance counts magnesium in Mg(OH)₂ only; reconcile any other magnesium-bearing phases separately. Supplier assays below provide inputs, not evidence for R. [S123](https://www.magnesiaspecialties.com/technical-data-sheets/FloMag-H.pdf)
+
+| Case / quantity | Calculated value (t/t Mg) | Assumptions and boundary |
+| --- | --- | --- |
+| Pure dry Mg(OH)₂ feed | 2.399 | s = p = R = 1; theoretical minimum hydroxide requirement. Chemistry context: [S121](https://archive.epa.gov/epawaste/nonhaz/industrial/special/web/pdf/part6.pdf) |
+| MgO intermediate from that hydroxide | 1.658 | Complete calcination; one Mg atom retained per formula unit; no impurity or recovery loss. Chemistry context: [S122](https://magnesiaspecialties.com/company/process) |
+| Bound water released by that calcination | 0.741 | Excludes free moisture; hydroxide mass = oxide mass + water mass. Chemistry context: [S122](https://magnesiaspecialties.com/company/process) |
+| Pure HCl equivalent for chloride conversion | 3.000 | Two moles HCl per mole Mg(OH)₂; gross stoichiometric acid requirement. Excludes dilution water and impurity reactions; not net purchased acid after recycling. [S121](https://archive.epa.gov/epawaste/nonhaz/industrial/special/web/pdf/part6.pdf) |
+| FloMag H slurry using typical assays | 3.992 | s = 0.609; p = 0.987; R = 1 assumed. Not guaranteed shipment chemistry or measured metal recovery. [S123](https://www.magnesiaspecialties.com/technical-data-sheets/FloMag-H.pdf) |
+| Same slurry, illustrative 90% Mg recovery | 4.435 | s = 0.609; p = 0.987; R = 0.90 is an analyst assumption, not supplier or plant performance. [S123](https://www.magnesiaspecialties.com/technical-data-sheets/FloMag-H.pdf) |
+
+[Download table](data/hydroxide-mass-balance.csv)
+
+At the sheet’s two minimum assay limits, s = 0.585 and p = 0.985, the R = 1 calculation becomes 4.164 t slurry/t Mg. Use the actual contracted specification and measured process recovery for purchasing decisions. [S123](https://www.magnesiaspecialties.com/technical-data-sheets/FloMag-H.pdf)
+
+### What makes it a useful U.S. feedstock?
+
+The domestic brine-to-hydroxide chain makes purchased Mg(OH)₂ a credible candidate for development trials. The decision between that intermediate, direct chloride preparation and purchased MgO remains site-specific. The following screening steps are engineering recommendations, not published acceptance standards or a finding that one route is cheapest. [S128](https://magnesiaspecialties.com/blogs/benefits-of-flomag-magnesium-hydroxide-slurry-for-wastewater-treatment) [S122](https://magnesiaspecialties.com/company/process)
+
+1. **Specify the feed and product together.** Request dry/wet basis, Mg-bearing phases, calcium, iron, silica, aluminum, chloride, sulfate, boron and any organic additives or coatings. Add trace-metal limits required by the intended metal buyer. An impurity can affect preparation, the cell or final metal; do not assume it all transfers to ingot. [S124](https://www.magnesiaspecialties.com/technical-data-sheets/MagChem_MH_10_ULC.pdf) [S121](https://archive.epa.gov/epawaste/nonhaz/industrial/special/web/pdf/part6.pdf)
+
+2. **Run representative material through the entire route.** Measure filtration and wash losses, acid consumption or calcination behavior, prepared-feed chemistry, extraction recovery and accepted metal. Track impurities into reject streams as well as product. Synthetic-feed precipitation evidence cannot substitute for these trials. [S126](https://iris.unipa.it/retrieve/5a7a0590-5b28-409f-8cd2-4ed1512bd3b1/acs.iecr.2c02935.pdf)
+
+3. **Compare delivered cost on recovered Mg.** Multiply a delivered feed quote in $/t by the calculated t feed/t Mg. Add preparation, heat, electricity, consumables and waste treatment; credit only defensible coproduct or reagent recovery. A slurry’s water adds freight and water handling; powder moves some processing upstream. No verified bulk hydroxide quote or complete hydroxide-to-metal cost was established in this review.
+
+4. **Confirm supply at the intended scale.** Obtain plant origin, available annual dry tonnage, lot variability and transport terms. A product listing establishes an offering, not uncommitted capacity. Confirm that an otherwise attractive powder has no coating or additive incompatible with the process.
 
 ## Purity requirements and commodity flows
 
@@ -1812,11 +1894,11 @@ Priority gaps are dated company primary output, current commissioning/utilizatio
 
 ## Source register
 
-All sources accessed 27 September 2026. Locators are document sections or printed page references where available. A reference may be a company filing hosted by a mirror; that limitation is explicit.
+Sources accessed 27–28 September 2026; each entry records its access date. Locators are document sections or printed page references where available. A reference may be a company filing hosted by a mirror; that limitation is explicit.
 
 ### S01 — Mineral Commodity Summaries 2026 — Magnesium Metal
 
-US Geological Survey; 2026. [Open source](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-magnesium-metal.pdf).
+US Geological Survey; 2026. [Open source](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-magnesium-metal.pdf). Accessed 2026-09-27.
 
 **Locator:** Salient Statistics, Domestic Production and Use, Recycling and Import Sources on PDF p. 1; World Production and Capacity on p. 2. **Supports:** Country output estimates and capacity; US primary cessation, reported primary consumption, recycling, import reliance and product-specific import origins.
 
@@ -1824,7 +1906,7 @@ US Geological Survey; 2026. [Open source](https://pubs.usgs.gov/periodicals/mcs2
 
 ### S02 — 2025 Annual Report
 
-Baowu Magnesium; 2026-04-29. [Open source](https://static.cninfo.com.cn/finalpage/2026-04-29/1225223859.PDF).
+Baowu Magnesium; 2026-04-29. [Open source](https://static.cninfo.com.cn/finalpage/2026-04-29/1225223859.PDF). Accessed 2026-09-27.
 
 **Locator:** Business discussion pp. 10–13; production/sales table p. 18. **Supports:** Ownership, mines, routes, customers, national association statistics and mixed-product tonnage.
 
@@ -1832,7 +1914,7 @@ Baowu Magnesium; 2026-04-29. [Open source](https://static.cninfo.com.cn/finalpag
 
 ### S03 — 2025 ESG Report
 
-Baowu Magnesium; 2026-04-29. [Open source](https://static.cninfo.com.cn/finalpage/2026-04-29/1225223882.PDF).
+Baowu Magnesium; 2026-04-29. [Open source](https://static.cninfo.com.cn/finalpage/2026-04-29/1225223882.PDF). Accessed 2026-09-27.
 
 **Locator:** Company overview and capacity/project descriptions. **Supports:** Existing capacity baseline and expansion scope.
 
@@ -1840,13 +1922,13 @@ Baowu Magnesium; 2026-04-29. [Open source](https://static.cninfo.com.cn/finalpag
 
 ### S04 — Investor relations activity record
 
-Baowu Magnesium; 2026-01-28. [Open source](https://static.cninfo.com.cn/finalpage/2026-01-28/1224953486.PDF).
+Baowu Magnesium; 2026-01-28. [Open source](https://static.cninfo.com.cn/finalpage/2026-01-28/1224953486.PDF). Accessed 2026-09-27.
 
 **Locator:** Questions on Qingyang mine and sales regions. **Supports:** Partial mine development and international markets.
 
 ### S05 — China magnesium industry presentation
 
-Lin Ruhai / International Magnesium Association conference; 2018. [Open source](https://cdn.ymaws.com/www.intlmag.org/resource/resmgr/conf2018/session3-1-lin-ruhai.pdf).
+Lin Ruhai / International Magnesium Association conference; 2018. [Open source](https://cdn.ymaws.com/www.intlmag.org/resource/resmgr/conf2018/session3-1-lin-ruhai.pdf). Accessed 2026-09-27.
 
 **Locator:** 2017 leading producers table. **Supports:** Historical company primary output and capacity.
 
@@ -1854,7 +1936,7 @@ Lin Ruhai / International Magnesium Association conference; 2018. [Open source](
 
 ### S06 — Chinese plant visits, November 2018
 
-Asian Metal; 2018. [Open source](https://wap.asianmetal.com/cag/2018/visit2018112801En.shtml).
+Asian Metal; 2018. [Open source](https://wap.asianmetal.com/cag/2018/visit2018112801En.shtml). Accessed 2026-09-27.
 
 **Locator:** Tianyu and Jinwantong visit notes. **Supports:** Facilities and historical capacities.
 
@@ -1862,7 +1944,7 @@ Asian Metal; 2018. [Open source](https://wap.asianmetal.com/cag/2018/visit201811
 
 ### S07 — Magnesium Summit 2019
 
-Asian Metal; 2019. [Open source](https://www.asianmetal.com/Events_2019/2019MgF/Index_eventBM_en.asp).
+Asian Metal; 2019. [Open source](https://www.asianmetal.com/Events_2019/2019MgF/Index_eventBM_en.asp). Accessed 2026-09-27.
 
 **Locator:** Tianyu chairman discussion. **Supports:** Dolomite mining, transport and ferrosilicon supply constraints.
 
@@ -1870,7 +1952,7 @@ Asian Metal; 2019. [Open source](https://www.asianmetal.com/Events_2019/2019MgF/
 
 ### S08 — Yinguang company profile
 
-Shanxi Yinguang / Foundry directory; Undated; verified listing 2026-01-24. [Open source](https://ygmg.foundry.cn/).
+Shanxi Yinguang / Foundry directory; Undated; verified listing 2026-01-24. [Open source](https://ygmg.foundry.cn/). Accessed 2026-09-27.
 
 **Locator:** Company introduction. **Supports:** Integrated group, products and group capacity claims.
 
@@ -1878,7 +1960,7 @@ Shanxi Yinguang / Foundry directory; Undated; verified listing 2026-01-24. [Open
 
 ### S09 — Yinguang Huasheng company introduction
 
-Yinguang Huasheng; Undated. [Open source](https://ijzt.china9.cn/component/jwpagefactory/?company_id=5136&id=ODk3NDQ%3D&layout_id=10564&site_id=4922&view=page).
+Yinguang Huasheng; Undated. [Open source](https://ijzt.china9.cn/component/jwpagefactory/?company_id=5136&id=ODk3NDQ%3D&layout_id=10564&site_id=4922&view=page). Accessed 2026-09-27.
 
 **Locator:** Company profile. **Supports:** Huasheng capacity and product scope.
 
@@ -1886,7 +1968,7 @@ Yinguang Huasheng; Undated. [Open source](https://ijzt.china9.cn/component/jwpag
 
 ### S10 — Wenxi magnesium industry reporting
 
-Yuncheng Daily; 2026-09-21. [Open source](https://www.yunchengdaily.cn/content/2026-09/21/content_27118820.html).
+Yuncheng Daily; 2026-09-21. [Open source](https://www.yunchengdaily.cn/content/2026-09/21/content_27118820.html). Accessed 2026-09-27.
 
 **Locator:** Huasheng and Bada factory reporting. **Supports:** Recent wheel-blank and vehicle housing activity.
 
@@ -1894,7 +1976,7 @@ Yuncheng Daily; 2026-09-21. [Open source](https://www.yunchengdaily.cn/content/2
 
 ### S11 — Company overview
 
-Shanxi Bada Magnesium; Undated. [Open source](https://www.chinese-mg.com/en/).
+Shanxi Bada Magnesium; Undated. [Open source](https://www.chinese-mg.com/en/). Accessed 2026-09-27.
 
 **Locator:** About us / company overview. **Supports:** Dolomite mine distance and resource claim; ownership, capacity and undated output.
 
@@ -1902,7 +1984,7 @@ Shanxi Bada Magnesium; Undated. [Open source](https://www.chinese-mg.com/en/).
 
 ### S12 — Magnesium output and operating updates
 
-Mysteel; 2026-03-10. [Open source](https://list1.m.mysteel.com/zhishi/meichanliang.html).
+Mysteel; 2026-03-10. [Open source](https://list1.m.mysteel.com/zhishi/meichanliang.html). Accessed 2026-09-27.
 
 **Locator:** Jinwantong maintenance notice dated March 10. **Supports:** Temporary shutdown and affected daily rate.
 
@@ -1910,7 +1992,7 @@ Mysteel; 2026-03-10. [Open source](https://list1.m.mysteel.com/zhishi/meichanlia
 
 ### S13 — Asian Metal visits Fugu Yide
 
-Asian Metal; 2026-02-04; visit 2025-12-27. [Open source](https://wap.asianmetal.com/cag/2025/visit2026020402En.shtml).
+Asian Metal; 2026-02-04; visit 2025-12-27. [Open source](https://wap.asianmetal.com/cag/2025/visit2026020402En.shtml). Accessed 2026-09-27.
 
 **Locator:** Plant visit and process description. **Supports:** Integrated capacities and facility-specific Pidgeon route.
 
@@ -1918,7 +2000,7 @@ Asian Metal; 2026-02-04; visit 2025-12-27. [Open source](https://wap.asianmetal.
 
 ### S14 — China 2023 Minerals Yearbook
 
-US Geological Survey; 2026. [Open source](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf).
+US Geological Survey; 2026. [Open source](https://pubs.usgs.gov/myb/vol3/2023/myb3-2023-china.pdf). Accessed 2026-09-27.
 
 **Locator:** Structure of mineral industry table, magnesium. **Supports:** Chinese producer/facility screening and capacity estimates.
 
@@ -1926,7 +2008,7 @@ US Geological Survey; 2026. [Open source](https://pubs.usgs.gov/myb/vol3/2023/my
 
 ### S15 — 2025 Annual Report
 
-Rare Earth Magnesium Technology Group; 2026-04-30. [Open source](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000040_c.pdf).
+Rare Earth Magnesium Technology Group; 2026-04-30. [Open source](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0430/2026043000040_c.pdf). Accessed 2026-09-27.
 
 **Locator:** Management discussion; magnesium products sales. **Supports:** 2025/2024 sales volume and business context.
 
@@ -1934,7 +2016,7 @@ Rare Earth Magnesium Technology Group; 2026-04-30. [Open source](https://www1.hk
 
 ### S16 — Inside information: financial and business update
 
-REMT; filing reproduced by CFi; 2026-08-19. [Open source](https://www.cfi.net.cn/p20260819003853.html).
+REMT; filing reproduced by CFi; 2026-08-19. [Open source](https://www.cfi.net.cn/p20260819003853.html). Accessed 2026-09-27.
 
 **Locator:** Business update paragraphs. **Supports:** Hami temporary production suspension arrangements; Baishan ore-powder business.
 
@@ -1942,7 +2024,7 @@ REMT; filing reproduced by CFi; 2026-08-19. [Open source](https://www.cfi.net.cn
 
 ### S17 — Acquisition circular
 
-REMT / HKEX; 2017-10-26. [Open source](https://www.hkexnews.hk/listedco/listconews/sehk/2017/1026/ltn201710261085.pdf).
+REMT / HKEX; 2017-10-26. [Open source](https://www.hkexnews.hk/listedco/listconews/sehk/2017/1026/ltn201710261085.pdf). Accessed 2026-09-27.
 
 **Locator:** Baishan mine technical/business description. **Supports:** Dolomite mine location, historical resource and mining capacity.
 
@@ -1950,7 +2032,7 @@ REMT / HKEX; 2017-10-26. [Open source](https://www.hkexnews.hk/listedco/listcone
 
 ### S18 — 2025 Annual Report / Form 20-F
 
-ICL; filing mirror; 2026-03-11. [Open source](https://financialfilings.com/filings/icl-group-ltd/annual-report/2026/32926978/).
+ICL; filing mirror; 2026-03-11. [Open source](https://financialfilings.com/filings/icl-group-ltd/annual-report/2026/32926978/). Accessed 2026-09-27.
 
 **Locator:** Dead Sea operations; magnesium; potash process and risk discussion. **Supports:** 2025 metal output, integrated brine/carnallite chain, regional markets and constraints.
 
@@ -1958,19 +2040,19 @@ ICL; filing mirror; 2026-03-11. [Open source](https://financialfilings.com/filin
 
 ### S19 — 2024 Annual Report / Form 20-F
 
-ICL / Tel Aviv Stock Exchange; 2025-03. [Open source](https://mayafiles.tase.co.il/rpdf/1650001-1651000/P1650877-00.pdf).
+ICL / Tel Aviv Stock Exchange; 2025-03. [Open source](https://mayafiles.tase.co.il/rpdf/1650001-1651000/P1650877-00.pdf). Accessed 2026-09-27.
 
 **Locator:** Dead Sea operations and magnesium production discussion. **Supports:** 2024 magnesium metal output of approximately 17,000 t; ownership and operating context.
 
 ### S20 — Dead Sea concession report
 
-Government of Israel; 2024-09-16. [Open source](https://www.gov.il/BlobFolder/news/press_16092024/en/PressReleases_eng_press_16092024_file2.pdf).
+Government of Israel; 2024-09-16. [Open source](https://www.gov.il/BlobFolder/news/press_16092024/en/PressReleases_eng_press_16092024_file2.pdf). Accessed 2026-09-27.
 
 **Locator:** Paragraphs 151–153. **Supports:** Integration of Dead Sea brine, carnallite, potash and magnesium.
 
 ### S21 — Aluminium and magnesium production: changes and perspectives
 
-METAL 2016 conference; 2016. [Open source](https://www.confer.cz/metal/2016/download/1804-aluminium-and-magnesium-production-changes-and-perspectives.pdf).
+METAL 2016 conference; 2016. [Open source](https://www.confer.cz/metal/2016/download/1804-aluminium-and-magnesium-production-changes-and-perspectives.pdf). Accessed 2026-09-27.
 
 **Locator:** DSM magnesium electrolysis discussion. **Supports:** Facility-specific VAMI electrolytic route.
 
@@ -1978,7 +2060,7 @@ METAL 2016 conference; 2016. [Open source](https://www.confer.cz/metal/2016/down
 
 ### S22 — Israel mineral industry country page
 
-US Geological Survey; 2024 industry data. [Open source](https://www.usgs.gov/centers/national-minerals-information-center/israel).
+US Geological Survey; 2024 industry data. [Open source](https://www.usgs.gov/centers/national-minerals-information-center/israel). Accessed 2026-09-27.
 
 **Locator:** Mineral industry structure. **Supports:** Alternative DSM capacity figure.
 
@@ -1986,7 +2068,7 @@ US Geological Survey; 2024 industry data. [Open source](https://www.usgs.gov/cen
 
 ### S23 — Circular SECEX 90, 23 September 2026
 
-Brazil SECEX; reproduced by Legisweb; 2026-09-23. [Open source](https://www.legisweb.com.br/legislacao/?id=501871).
+Brazil SECEX; reproduced by Legisweb; 2026-09-23. [Open source](https://www.legisweb.com.br/legislacao/?id=501871). Accessed 2026-09-27.
 
 **Locator:** Domestic manufacturing process, §3.2, numbered stages i–viii. **Supports:** RIMA domestic primary production share, feed preparation and reductant mix; Bocaiúva reduction/condensation sequence and cycle description.
 
@@ -1994,7 +2076,7 @@ Brazil SECEX; reproduced by Legisweb; 2026-09-23. [Open source](https://www.legi
 
 ### S24 — Resolution GECEX 569
 
-Brazil GECEX; reproduced by Legisweb; 2024. [Open source](https://www.legisweb.com.br/legislacao/?id=456519).
+Brazil GECEX; reproduced by Legisweb; 2024. [Open source](https://www.legisweb.com.br/legislacao/?id=456519). Accessed 2026-09-27.
 
 **Locator:** Product and domestic manufacturing sections. **Supports:** RIMA metal purity and production process.
 
@@ -2002,7 +2084,7 @@ Brazil GECEX; reproduced by Legisweb; 2024. [Open source](https://www.legisweb.c
 
 ### S25 — Interview with Ricardo Vicintin
 
-O Tempo; 2026-07-04. [Open source](https://www.otempo.com.br/minas-sa/2026/7/4/ricardo-vicintin-do-grupo-rima-criou-gigante-da-metalurgia-global).
+O Tempo; 2026-07-04. [Open source](https://www.otempo.com.br/minas-sa/2026/7/4/ricardo-vicintin-do-grupo-rima-criou-gigante-da-metalurgia-global). Accessed 2026-09-27.
 
 **Locator:** RIMA founder interview. **Supports:** 22,000 t/year statement and Embraer development work.
 
@@ -2010,7 +2092,7 @@ O Tempo; 2026-07-04. [Open source](https://www.otempo.com.br/minas-sa/2026/7/4/r
 
 ### S26 — Dolomite mining post
 
-RIMA Industrial; Undated. [Open source](https://pt.linkedin.com/posts/rimaindustrial_magnesio-industria-dolomita-activity-7009567775870361600-wJ--).
+RIMA Industrial; Undated. [Open source](https://pt.linkedin.com/posts/rimaindustrial_magnesio-industria-dolomita-activity-7009567775870361600-wJ--). Accessed 2026-09-27.
 
 **Locator:** Company post. **Supports:** Own high-purity dolomite resource.
 
@@ -2018,7 +2100,7 @@ RIMA Industrial; Undated. [Open source](https://pt.linkedin.com/posts/rimaindust
 
 ### S27 — SMZ produces its 1,250,000th tonne of magnesium
 
-Solikamsk Magnesium Works; 2025-02-04. [Open source](https://www.smw.ru/news/novosti/smz-vypustil-1-250-000-tonn-magniya/).
+Solikamsk Magnesium Works; 2025-02-04. [Open source](https://www.smw.ru/news/novosti/smz-vypustil-1-250-000-tonn-magniya/). Accessed 2026-09-27.
 
 **Locator:** Corporate news. **Supports:** Operating continuity, Rosatom affiliation and electrolytic production.
 
@@ -2026,7 +2108,7 @@ Solikamsk Magnesium Works; 2025-02-04. [Open source](https://www.smw.ru/news/nov
 
 ### S28 — 2024 Annual Report
 
-Uralkali; 2025. [Open source](https://www.uralkali.com/upload/iblock/d1f/ybkimixkd5jmjdoarqtsrtnums0m1hai/uralkali_ar2024_eng.pdf).
+Uralkali; 2025. [Open source](https://www.uralkali.com/upload/iblock/d1f/ybkimixkd5jmjdoarqtsrtnums0m1hai/uralkali_ar2024_eng.pdf). Accessed 2026-09-27.
 
 **Locator:** pp. 146–147, deposits and mine facilities. **Supports:** Solikamsk-1 mines/processes carnallite at Verkhnekamskoye.
 
@@ -2034,7 +2116,7 @@ Uralkali; 2025. [Open source](https://www.uralkali.com/upload/iblock/d1f/ybkimix
 
 ### S29 — Solikamsk Magnesium Works research note
 
-RMG; 2004-07-13. [Open source](https://reports.aiidatapro.com/brokers/RMGEn/040713MGNZEN.pdf).
+RMG; 2004-07-13. [Open source](https://reports.aiidatapro.com/brokers/RMGEn/040713MGNZEN.pdf). Accessed 2026-09-27.
 
 **Locator:** Feedstock and integration discussion. **Supports:** Historical Uralkali supply and chlorine integration.
 
@@ -2042,7 +2124,7 @@ RMG; 2004-07-13. [Open source](https://reports.aiidatapro.com/brokers/RMGEn/0407
 
 ### S30 — Magnesium market bulletin
 
-Shanghai Metals Market; 2026-03-11. [Open source](https://static-metal.smm.cn/production/subscribe/email/IozJG20260311155122.pdf).
+Shanghai Metals Market; 2026-03-11. [Open source](https://static-metal.smm.cn/production/subscribe/email/IozJG20260311155122.pdf). Accessed 2026-09-27.
 
 **Locator:** Russia operating discussion. **Supports:** Industry reports on SMZ upgrades and AVISMA cessation.
 
@@ -2050,7 +2132,7 @@ Shanghai Metals Market; 2026-03-11. [Open source](https://static-metal.smm.cn/pr
 
 ### S31 — Magnesium element profile
 
-L’Elementarium / Société Chimique de France; Undated, accessed 2026. [Open source](https://lelementarium.fr/element-fiche/magnesium/).
+L’Elementarium / Société Chimique de France; Undated, accessed 2026. [Open source](https://lelementarium.fr/element-fiche/magnesium/). Accessed 2026-09-27.
 
 **Locator:** World producers and Russia. **Supports:** Historical SMZ capacity and 2019 sales.
 
@@ -2058,13 +2140,13 @@ L’Elementarium / Société Chimique de France; Undated, accessed 2026. [Open s
 
 ### S32 — Production
 
-Ust-Kamenogorsk Titanium and Magnesium Plant; Undated, accessed 2026. [Open source](https://www.uktmp.kz/en/production).
+Ust-Kamenogorsk Titanium and Magnesium Plant; Undated, accessed 2026. [Open source](https://www.uktmp.kz/en/production). Accessed 2026-09-27.
 
 **Locator:** Shop No. 1 and titanium production. **Supports:** Magnesium ingots, reducing agent and internal titanium chain.
 
 ### S33 — Best available techniques reference for titanium and magnesium production; Decree 339
 
-Government of Kazakhstan; Bizup reproduction; 2025-05-14. [Open source](https://bizup.kz/ru/documents/p2500000339).
+Government of Kazakhstan; Bizup reproduction; 2025-05-14. [Open source](https://bizup.kz/ru/documents/p2500000339). Accessed 2026-09-27.
 
 **Locator:** Table 1.4; §§3.7.1–3.7.7. **Supports:** 2021–2022 plant flow quantities and prepared carnallite specification; chloride preparation, electrolysis, metal refining and titanium-loop integration.
 
@@ -2072,7 +2154,7 @@ Government of Kazakhstan; Bizup reproduction; 2025-05-14. [Open source](https://
 
 ### S34 — UKTMP audited financial statements for 2025 published
 
-Kazakhstan Stock Exchange; 2026-06-09. [Open source](https://kase.kz/en/information/news/show/1568367).
+Kazakhstan Stock Exchange; 2026-06-09. [Open source](https://kase.kz/en/information/news/show/1568367). Accessed 2026-09-27.
 
 **Locator:** Issuer notice. **Supports:** Current reporting identity and financial filing availability.
 
@@ -2080,7 +2162,7 @@ Kazakhstan Stock Exchange; 2026-06-09. [Open source](https://kase.kz/en/informat
 
 ### S35 — Türkiye National Inventory Document 2026
 
-Government of Türkiye / UNFCCC; 2026. [Open source](https://unfccc.int/sites/default/files/resource/TUR_NID_2026.pdf).
+Government of Türkiye / UNFCCC; 2026. [Open source](https://unfccc.int/sites/default/files/resource/TUR_NID_2026.pdf). Accessed 2026-09-27.
 
 **Locator:** §4.4.4 magnesium production. **Supports:** Kar Mineral as sole producer; dolomite silicothermic route since 2016.
 
@@ -2088,13 +2170,13 @@ Government of Türkiye / UNFCCC; 2026. [Open source](https://unfccc.int/sites/de
 
 ### S36 — Türkiye mineral industry country page
 
-US Geological Survey; 2024 industry data. [Open source](https://www.usgs.gov/centers/national-minerals-information-center/turkey).
+US Geological Survey; 2024 industry data. [Open source](https://www.usgs.gov/centers/national-minerals-information-center/turkey). Accessed 2026-09-27.
 
 **Locator:** Mineral industry structure. **Supports:** Kar Mineral 15,000 t/y capacity.
 
 ### S37 — Governor visits Kar Mineral
 
-Emirdağ district government; 2022. [Open source](https://www.emirdag.gov.tr/vali-yigitbasidan-kar-mineral-madencilige-ziyaret).
+Emirdağ district government; 2022. [Open source](https://www.emirdag.gov.tr/vali-yigitbasidan-kar-mineral-madencilige-ziyaret). Accessed 2026-09-27.
 
 **Locator:** Factory visit. **Supports:** Emirdağ location and supported application sectors.
 
@@ -2102,7 +2184,7 @@ Emirdağ district government; 2022. [Open source](https://www.emirdag.gov.tr/val
 
 ### S38 — Magnesium ingot project
 
-Aramico; Undated. [Open source](https://arami-co.com/fields-of-work/metallurgical-industry/magnesium-ignot/).
+Aramico; Undated. [Open source](https://arami-co.com/fields-of-work/metallurgical-industry/magnesium-ignot/). Accessed 2026-09-27.
 
 **Locator:** Iran magnesium project. **Supports:** 2013 completion, thermal route and 6,000 t/y design scale.
 
@@ -2110,7 +2192,7 @@ Aramico; Undated. [Open source](https://arami-co.com/fields-of-work/metallurgica
 
 ### S39 — Iran 6,000 t/a magnesium plant
 
-ZK equipment supplier; Undated. [Open source](https://www.zkcomp.com/cases/Iran-6000t/a-Mg-Plant-Project.html).
+ZK equipment supplier; Undated. [Open source](https://www.zkcomp.com/cases/Iran-6000t/a-Mg-Plant-Project.html). Accessed 2026-09-27.
 
 **Locator:** Project case. **Supports:** Pidgeon route and project capacity.
 
@@ -2118,7 +2200,7 @@ ZK equipment supplier; Undated. [Open source](https://www.zkcomp.com/cases/Iran-
 
 ### S40 — US Magnesium Chapter 11 case
 
-Stretto, claims agent; 2025-09-10. [Open source](https://cases.stretto.com/usmagnesium/).
+Stretto, claims agent; 2025-09-10. [Open source](https://cases.stretto.com/usmagnesium/). Accessed 2026-09-27.
 
 **Locator:** Case overview. **Supports:** Bankruptcy petition and company identity.
 
@@ -2126,7 +2208,7 @@ Stretto, claims agent; 2025-09-10. [Open source](https://cases.stretto.com/usmag
 
 ### S41 — About US Magnesium
 
-US Magnesium; Undated. [Open source](https://usmagnesium.com/about-us-mag/).
+US Magnesium; Undated. [Open source](https://usmagnesium.com/about-us-mag/). Accessed 2026-09-27.
 
 **Locator:** Company overview. **Supports:** Rowley site and 63,500 t/y capacity.
 
@@ -2134,7 +2216,7 @@ US Magnesium; Undated. [Open source](https://usmagnesium.com/about-us-mag/).
 
 ### S42 — Solar energy and concentration
 
-US Magnesium; Undated. [Open source](https://usmagnesium.com/environment/solar-energy/).
+US Magnesium; Undated. [Open source](https://usmagnesium.com/environment/solar-energy/). Accessed 2026-09-27.
 
 **Locator:** Pond concentration discussion. **Supports:** Great Salt Lake brine concentration from 0.5% Mg to 9% Mg.
 
@@ -2142,13 +2224,13 @@ US Magnesium; Undated. [Open source](https://usmagnesium.com/environment/solar-e
 
 ### S43 — US Magnesium canal continuation certification
 
-Utah Department of Environmental Quality; Undated. [Open source](https://deq.utah.gov/water-quality/us-magnesium-canal-continuation-project-section-401-water-quality-certification-decision).
+Utah Department of Environmental Quality; Undated. [Open source](https://deq.utah.gov/water-quality/us-magnesium-canal-continuation-project-section-401-water-quality-certification-decision). Accessed 2026-09-27.
 
 **Locator:** Project and lake access description. **Supports:** Brine access dependency as lake level declines.
 
 ### S44 — VSMPO-AVISMA magnesium trade case
 
-US Court of International Trade; 2010. [Open source](https://www.cit.uscourts.gov/sites/cit/files/10-93.pdf).
+US Court of International Trade; 2010. [Open source](https://www.cit.uscourts.gov/sites/cit/files/10-93.pdf). Accessed 2026-09-27.
 
 **Locator:** Production and carnallite discussion. **Supports:** Historical carnallite feed and coupled magnesium/titanium loop.
 
@@ -2156,7 +2238,7 @@ US Court of International Trade; 2010. [Open source](https://www.cit.uscourts.go
 
 ### S45 — 2025 Annual Report
 
-Magontec; 2026-02. [Open source](https://magontec.com/wp-content/uploads/2026/02/Magontec-Limited-2025-Annual-Report-Final.pdf).
+Magontec; 2026-02. [Open source](https://magontec.com/wp-content/uploads/2026/02/Magontec-Limited-2025-Annual-Report-Final.pdf). Accessed 2026-09-27.
 
 **Locator:** Business review; Qinghai closure; p. 10 primary alloy distribution. **Supports:** Qinghai exit, European recycling, anodes, approximately 700 t H2 alloy shipments.
 
@@ -2164,7 +2246,7 @@ Magontec; 2026-02. [Open source](https://magontec.com/wp-content/uploads/2026/02
 
 ### S46 — 2024 Half Year Results Presentation
 
-Magontec; 2024-08. [Open source](https://magontec.com/wp-content/uploads/2024/08/Magontec-2024-Half-Year-Results-Presentation.pdf).
+Magontec; 2024-08. [Open source](https://magontec.com/wp-content/uploads/2024/08/Magontec-2024-Half-Year-Results-Presentation.pdf). Accessed 2026-09-27.
 
 **Locator:** p. 4, operations. **Supports:** 24,000 t/y European recycling capacity.
 
@@ -2172,7 +2254,7 @@ Magontec; 2024-08. [Open source](https://magontec.com/wp-content/uploads/2024/08
 
 ### S47 — 2024 Annual Report
 
-Magontec; 2025-02. [Open source](https://magontec.com/wp-content/uploads/2025/02/Magontec-Limited-2024-Annual-Report-Final.pdf).
+Magontec; 2025-02. [Open source](https://magontec.com/wp-content/uploads/2025/02/Magontec-Limited-2024-Annual-Report-Final.pdf). Accessed 2026-09-27.
 
 **Locator:** Qinghai and recycling discussion. **Supports:** Historical primary/alloy chain and diecasting scrap returns.
 
@@ -2180,7 +2262,7 @@ Magontec; 2025-02. [Open source](https://magontec.com/wp-content/uploads/2025/02
 
 ### S48 — Products
 
-Advanced Magnesium Alloys Corporation; Undated. [Open source](https://amacor.us/products).
+Advanced Magnesium Alloys Corporation; Undated. [Open source](https://amacor.us/products). Accessed 2026-09-27.
 
 **Locator:** Magnesium alloys and recycling services. **Supports:** Anderson recycling and alloy product/application scope.
 
@@ -2188,7 +2270,7 @@ Advanced Magnesium Alloys Corporation; Undated. [Open source](https://amacor.us/
 
 ### S49 — Pure Magnesium from China, review publication 5420
 
-US International Trade Commission; 2023. [Open source](https://www.usitc.gov/sites/default/files/publications/701_731/pub5420.pdf).
+US International Trade Commission; 2023. [Open source](https://www.usitc.gov/sites/default/files/publications/701_731/pub5420.pdf). Accessed 2026-09-27.
 
 **Locator:** US producers and confidential production tables; I-27 channels; II-15 qualification; V-1–3 pricing. **Supports:** US processing industry, withheld quantities, historical purchasing/qualification and contracting practices.
 
@@ -2196,7 +2278,7 @@ US International Trade Commission; 2023. [Open source](https://www.usitc.gov/sit
 
 ### S50 — AMACOR company listing
 
-ScrapMonster; Undated. [Open source](https://www.scrapmonster.com/scrap-yard/advanced-magnesium-alloys-corporation/36988).
+ScrapMonster; Undated. [Open source](https://www.scrapmonster.com/scrap-yard/advanced-magnesium-alloys-corporation/36988). Accessed 2026-09-27.
 
 **Locator:** Company description. **Supports:** 50,000 t/y marketing capacity claim.
 
@@ -2204,13 +2286,13 @@ ScrapMonster; Undated. [Open source](https://www.scrapmonster.com/scrap-yard/adv
 
 ### S51 — Machined magnesium guide
 
-Luxfer MEL Technologies; 2026. [Open source](https://www.luxfermeltechnologies.com/knowledge-hub/machined-magnesium-guide/).
+Luxfer MEL Technologies; 2026. [Open source](https://www.luxfermeltechnologies.com/knowledge-hub/machined-magnesium-guide/). Accessed 2026-09-27.
 
 **Locator:** Recycling machining waste. **Supports:** Manchester scrap route, alloy segregation and contamination considerations.
 
 ### S52 — Elektron finished parts
 
-Luxfer MEL Technologies; Undated. [Open source](https://www.luxfermeltechnologies.com/elektron-finished-parts/).
+Luxfer MEL Technologies; Undated. [Open source](https://www.luxfermeltechnologies.com/elektron-finished-parts/). Accessed 2026-09-27.
 
 **Locator:** Capabilities and applications. **Supports:** Alloy-to-finished-part chain and internal recycling.
 
@@ -2218,7 +2300,7 @@ Luxfer MEL Technologies; Undated. [Open source](https://www.luxfermeltechnologie
 
 ### S53 — Fugu aims for more than 100 kt of alloy production in 2026
 
-CM Group; 2026-03-18. [Open source](https://www.cmgroup.net/news/fugu-aims-more-than-100-kt-of-mg-alloy-production-in-2026/).
+CM Group; 2026-03-18. [Open source](https://www.cmgroup.net/news/fugu-aims-more-than-100-kt-of-mg-alloy-production-in-2026/). Accessed 2026-09-27.
 
 **Locator:** 2025 Fugu industry figures. **Supports:** 557,700 t primary output and 802,500 t/y capacity.
 
@@ -2226,7 +2308,7 @@ CM Group; 2026-03-18. [Open source](https://www.cmgroup.net/news/fugu-aims-more-
 
 ### S54 — Magnesium statistics and information
 
-US Geological Survey; Undated. [Open source](https://www.usgs.gov/centers/national-minerals-information-center/magnesium-statistics-and-information).
+US Geological Survey; Undated. [Open source](https://www.usgs.gov/centers/national-minerals-information-center/magnesium-statistics-and-information). Accessed 2026-09-27.
 
 **Locator:** Commodity overview. **Supports:** General applications and metal/compound distinction.
 
@@ -2234,7 +2316,7 @@ US Geological Survey; Undated. [Open source](https://www.usgs.gov/centers/nation
 
 ### S55 — Overview
 
-Latrobe Magnesium; Undated, accessed 2026. [Open source](https://www.latrobemagnesium.com/overview).
+Latrobe Magnesium; Undated, accessed 2026. [Open source](https://www.latrobemagnesium.com/overview). Accessed 2026-09-27.
 
 **Locator:** Demonstration plant and development options. **Supports:** Hydrometallurgical/thermal route and headline demonstration design.
 
@@ -2242,7 +2324,7 @@ Latrobe Magnesium; Undated, accessed 2026. [Open source](https://www.latrobemagn
 
 ### S56 — 2026 Annual Report
 
-Latrobe Magnesium; filing mirror; 2026-09-25. [Open source](https://financialfilings.com/filings/latrobe-magnesium-limited/annual-report/2026/61546901/).
+Latrobe Magnesium; filing mirror; 2026-09-25. [Open source](https://financialfilings.com/filings/latrobe-magnesium-limited/annual-report/2026/61546901/). Accessed 2026-09-27.
 
 **Locator:** Review of operations pp. 4–16. **Supports:** Actual MgO campaign, Phase 1B, ash supply, new US option and future counterparties.
 
@@ -2250,7 +2332,7 @@ Latrobe Magnesium; filing mirror; 2026-09-25. [Open source](https://financialfil
 
 ### S57 — Investor presentation
 
-Latrobe Magnesium / ASX via MarketIndex; 2026-04-30. [Open source](https://www.marketindex.com.au/asx/lmg/announcements/investor-presentation-2A1669040).
+Latrobe Magnesium / ASX via MarketIndex; 2026-04-30. [Open source](https://www.marketindex.com.au/asx/lmg/announcements/investor-presentation-2A1669040). Accessed 2026-09-27.
 
 **Locator:** Flow sheet, feedstock and offtake slides. **Supports:** Yallourn ash and Metal Exchange demonstration arrangements.
 
@@ -2258,7 +2340,7 @@ Latrobe Magnesium / ASX via MarketIndex; 2026-04-30. [Open source](https://www.m
 
 ### S58 — First magnesium from Arkansas Smackover brine
 
-Magrathea; 2026-06-16. [Open source](https://www.magratheametals.com/news/arkamagastm).
+Magrathea; 2026-06-16. [Open source](https://www.magratheametals.com/news/arkamagastm). Accessed 2026-09-27.
 
 **Locator:** Arkansas Magnesium and TETRA announcement. **Supports:** Technical metal production from TETRA brine; >99.9% product purity.
 
@@ -2266,7 +2348,7 @@ Magrathea; 2026-06-16. [Open source](https://www.magratheametals.com/news/arkama
 
 ### S59 — Magrathea and Wogen sign offtake distribution partnership
 
-Magrathea; 2026-01-07. [Open source](https://www.magratheametals.com/news/wogen).
+Magrathea; 2026-01-07. [Open source](https://www.magratheametals.com/news/wogen). Accessed 2026-09-27.
 
 **Locator:** January 7 announcement: Phase 1/2 distribution, 2029 market target and unnamed automaker. **Supports:** Future distribution/offtake; up to 7,000 t/y market-placement target; unnamed Big 3 pre-sales.
 
@@ -2274,7 +2356,7 @@ Magrathea; 2026-01-07. [Open source](https://www.magratheametals.com/news/wogen)
 
 ### S60 — About us
 
-Verde Magnesium; Undated. [Open source](https://www.verdemg.com/about-us).
+Verde Magnesium; Undated. [Open source](https://www.verdemg.com/about-us). Accessed 2026-09-27.
 
 **Locator:** Project and technology description. **Supports:** Romanian brucite project and proposed thermal route.
 
@@ -2282,7 +2364,7 @@ Verde Magnesium; Undated. [Open source](https://www.verdemg.com/about-us).
 
 ### S61 — Strategic Project press release
 
-Verde Magnesium; 2025-03. [Open source](https://www.verdemg.com/wp-content/uploads/2025/03/VerdeMg.SP_.Press_.Release.pdf).
+Verde Magnesium; 2025-03. [Open source](https://www.verdemg.com/wp-content/uploads/2025/03/VerdeMg.SP_.Press_.Release.pdf). Accessed 2026-09-27.
 
 **Locator:** Budureasa development schedule. **Supports:** 30,000 t/y 2030 and up to 90,000 t/y 2036 targets.
 
@@ -2290,7 +2372,7 @@ Verde Magnesium; 2025-03. [Open source](https://www.verdemg.com/wp-content/uploa
 
 ### S62 — Alliance Magnesium / Tergeo insolvency proceedings
 
-PwC Canada; 2023 onward. [Open source](https://www.pwc.com/ca/en/services/insolvency-assignments/alliancemagnesiumtergeo.html).
+PwC Canada; 2023 onward. [Open source](https://www.pwc.com/ca/en/services/insolvency-assignments/alliancemagnesiumtergeo.html). Accessed 2026-09-27.
 
 **Locator:** Case timeline and documents. **Supports:** Insolvency status.
 
@@ -2298,7 +2380,7 @@ PwC Canada; 2023 onward. [Open source](https://www.pwc.com/ca/en/services/insolv
 
 ### S63 — Alliance Magnesium becomes Tergeo
 
-Company release via CNW; 2023-04. [Open source](https://www.newswire.ca/news-releases/alliance-magnesium-becomes-tergeo-a-company-dedicated-to-the-production-of-critical-minerals-and-to-environmental-remediation--816442021.html).
+Company release via CNW; 2023-04. [Open source](https://www.newswire.ca/news-releases/alliance-magnesium-becomes-tergeo-a-company-dedicated-to-the-production-of-critical-minerals-and-to-environmental-remediation--816442021.html). Accessed 2026-09-27.
 
 **Locator:** Operations and future primary project. **Supports:** Serpentine tailings project and historical secondary operations.
 
@@ -2306,7 +2388,7 @@ Company release via CNW; 2023-04. [Open source](https://www.newswire.ca/news-rel
 
 ### S64 — Exploitation licence for Rășinari–Săliște
 
-MPI Magnesium; 2026-09-09. [Open source](https://mpimagnesium.com/2026/09/09/european-first-mpi-obtains-exploitation-license-for-the-integrated-magnesium-project-at-rasinari-saliste-sibiu-county/).
+MPI Magnesium; 2026-09-09. [Open source](https://mpimagnesium.com/2026/09/09/european-first-mpi-obtains-exploitation-license-for-the-integrated-magnesium-project-at-rasinari-saliste-sibiu-county/). Accessed 2026-09-27.
 
 **Locator:** Company licence announcement. **Supports:** Valea Dobra serpentinite resource, Romanian company ownership, licence and compound-first project.
 
@@ -2314,7 +2396,7 @@ MPI Magnesium; 2026-09-09. [Open source](https://mpimagnesium.com/2026/09/09/eur
 
 ### S65 — Responsible Raw Materials Report 2025
 
-Volkswagen Group; 2026. [Open source](https://www.volkswagen-group.com/en/publications/more/responsible-raw-materials-report-2025-3229/download?disposition=attachment).
+Volkswagen Group; 2026. [Open source](https://www.volkswagen-group.com/en/publications/more/responsible-raw-materials-report-2025-3229/download?disposition=attachment). Accessed 2026-09-27.
 
 **Locator:** Magnesium sourcing discussion. **Supports:** Indirect sourcing through alloys and components.
 
@@ -2322,7 +2404,7 @@ Volkswagen Group; 2026. [Open source](https://www.volkswagen-group.com/en/public
 
 ### S66 — Frequently asked questions — State purchase of US Magnesium assets
 
-State of Utah / Great Salt Lake; 2026; page undated. [Open source](https://greatsaltlake.utah.gov/faq/).
+State of Utah / Great Salt Lake; 2026; page undated. [Open source](https://greatsaltlake.utah.gov/faq/). Accessed 2026-09-27.
 
 **Locator:** How did the state purchase US Magnesium?. **Supports:** State acquisition of land, water rights and mineral rights; sale boundary.
 
@@ -2330,7 +2412,7 @@ State of Utah / Great Salt Lake; 2026; page undated. [Open source](https://great
 
 ### S67 — 2026 Half Year Report
 
-Magontec; 2026-08-28. [Open source](https://magontec.com/wp-content/uploads/2026/08/Magontec-30-June-2026-Half-Year-Report.pdf).
+Magontec; 2026-08-28. [Open source](https://magontec.com/wp-content/uploads/2026/08/Magontec-30-June-2026-Half-Year-Report.pdf). Accessed 2026-09-27.
 
 **Locator:** Chairman pp.2–3; cathodic corrosion protection pp.8–10; Metals pp.11–12. **Supports:** H1 2026 volume trends; recycling, primary-alloy trading and specialist-alloy markets.
 
@@ -2338,7 +2420,7 @@ Magontec; 2026-08-28. [Open source](https://magontec.com/wp-content/uploads/2026
 
 ### S68 — 2025 Form 10-K
 
-Luxfer Holdings PLC; filing mirrored by FinancialFilings; 2026-02-24. [Open source](https://financialfilings.com/filings/luxfer-holdings-plc/annual-report/2026/32887439/).
+Luxfer Holdings PLC; filing mirrored by FinancialFilings; 2026-02-24. [Open source](https://financialfilings.com/filings/luxfer-holdings-plc/annual-report/2026/32887439/). Accessed 2026-09-27.
 
 **Locator:** Item 1: Elektron/raw materials/end markets; Item 2: properties. **Supports:** Parent ownership, Manchester facility, rare-earth inputs, specialty Mg alloy applications.
 
@@ -2346,7 +2428,7 @@ Luxfer Holdings PLC; filing mirrored by FinancialFilings; 2026-02-24. [Open sour
 
 ### S69 — Form 10-Q, quarter ended 28 June 2026
 
-Luxfer / SEC; 2026-07. [Open source](https://www.sec.gov/Archives/edgar/data/1096056/000143774926024682/lxfr20260628_10q.htm).
+Luxfer / SEC; 2026-07. [Open source](https://www.sec.gov/Archives/edgar/data/1096056/000143774926024682/lxfr20260628_10q.htm). Accessed 2026-09-27.
 
 **Locator:** Notes 15–16; MD&A Elektron sales. **Supports:** MEL within Elektron, proposed ownership transaction, aerospace-alloy sales trend.
 
@@ -2354,7 +2436,7 @@ Luxfer / SEC; 2026-07. [Open source](https://www.sec.gov/Archives/edgar/data/109
 
 ### S70 — Form 8-K: acquisition regulatory milestone
 
-Luxfer / SEC; 2026-09-09; event 2026-09-08. [Open source](https://www.sec.gov/Archives/edgar/data/1096056/000207709626000244/ea0304990-8k_luxfer.htm).
+Luxfer / SEC; 2026-09-09; event 2026-09-08. [Open source](https://www.sec.gov/Archives/edgar/data/1096056/000207709626000244/ea0304990-8k_luxfer.htm). Accessed 2026-09-27.
 
 **Locator:** Item 8.01. **Supports:** Wynnchurch-backed proposed acquisition; remaining closing conditions.
 
@@ -2362,7 +2444,7 @@ Luxfer / SEC; 2026-09-09; event 2026-09-08. [Open source](https://www.sec.gov/Ar
 
 ### S71 — Magrathea backed by $100M to rebuild American magnesium production
 
-Magrathea; 2026-05-05. [Open source](https://www.magratheametals.com/news/100million).
+Magrathea; 2026-05-05. [Open source](https://www.magratheametals.com/news/100million). Accessed 2026-09-27.
 
 **Locator:** Paragraphs describing March JV agreement and engineering. **Supports:** Arkansas Magnesium JV established in March 2026.
 
@@ -2370,7 +2452,7 @@ Magrathea; 2026-05-05. [Open source](https://www.magratheametals.com/news/100mil
 
 ### S72 — Magrathea and Cargill sign brine supply agreement
 
-Magrathea; 2024-04-02. [Open source](https://www.magratheametals.com/news/cargill).
+Magrathea; 2024-04-02. [Open source](https://www.magratheametals.com/news/cargill). Accessed 2026-09-27.
 
 **Locator:** Pilot scale-up source material and San Francisco Bay salt co-products. **Supports:** Named pilot feedstock supplier and seawater origin.
 
@@ -2378,7 +2460,7 @@ Magrathea; 2024-04-02. [Open source](https://www.magratheametals.com/news/cargil
 
 ### S73 — Projet 4M2 — former Tergeo site redevelopment
 
-Ville de Val-des-Sources; Undated; reviewed 2026-09-27. [Open source](https://valdessources.ca/affaires/projet-4m2/).
+Ville de Val-des-Sources; Undated; reviewed 2026-09-27. [Open source](https://valdessources.ca/affaires/projet-4m2/). Accessed 2026-09-27.
 
 **Locator:** FAQ: acquisition, Exterra partnership and existing infrastructure. **Supports:** Municipal redevelopment agreement with Exterra; former-site mineral material and assets.
 
@@ -2386,7 +2468,7 @@ Ville de Val-des-Sources; Undated; reviewed 2026-09-27. [Open source](https://va
 
 ### S74 — Un parc industriel, quatre quartiers et une vision unifiée
 
-Ville de Val-des-Sources; 2026-05-29. [Open source](https://valdessources.ca/actualites/un-parc-industriel-quatre-quartiers-et-une-vision-unifiee/).
+Ville de Val-des-Sources; 2026-05-29. [Open source](https://valdessources.ca/actualites/un-parc-industriel-quatre-quartiers-et-une-vision-unifiee/). Accessed 2026-09-27.
 
 **Locator:** Former Tergeo assets now quartier 4M2. **Supports:** Dated confirmation of site redevelopment direction.
 
@@ -2394,7 +2476,7 @@ Ville de Val-des-Sources; 2026-05-29. [Open source](https://valdessources.ca/act
 
 ### S75 — A Strategic Project in the European Union — IMA presentation
 
-Verde Magnesium / IMA; 2025 conference; slides undated. [Open source](https://cdn.ymaws.com/www.intlmag.org/resource/collection/1B278489-BEAC-4779-8813-E1E6F7D06DEA/IMA-Verde-Magnesium-Alex-Rosu-Tues-11-20-11-40.pdf).
+Verde Magnesium / IMA; 2025 conference; slides undated. [Open source](https://cdn.ymaws.com/www.intlmag.org/resource/collection/1B278489-BEAC-4779-8813-E1E6F7D06DEA/IMA-Verde-Magnesium-Alex-Rosu-Tues-11-20-11-40.pdf). Accessed 2026-09-27.
 
 **Locator:** Slides 3, 10, 13, 18–19: sponsor, resource and pilot diagram. **Supports:** Brucite ore and concentrate MgO bases; aluminothermic route; illustrated pilot material flows.
 
@@ -2402,7 +2484,7 @@ Verde Magnesium / IMA; 2025 conference; slides undated. [Open source](https://cd
 
 ### S76 — Verde Magnesium: Europe’s Critical Minerals Comeback
 
-EME Outlook; interview with CEO Alexandru Rosu; 2026-05-26. [Open source](https://www.emeoutlookmag.com/mining/verde-magnesium-europes-critical-minerals-comeback).
+EME Outlook; interview with CEO Alexandru Rosu; 2026-05-26. [Open source](https://www.emeoutlookmag.com/mining/verde-magnesium-europes-critical-minerals-comeback). Accessed 2026-09-27.
 
 **Locator:** Sustainable, Low-Carbon Future; Delivering on the Future. **Supports:** 360 t/y Mother Plant, quarry restart target, 30,000 t/y by 2030 and pending firm offtake.
 
@@ -2410,7 +2492,7 @@ EME Outlook; interview with CEO Alexandru Rosu; 2026-05-26. [Open source](https:
 
 ### S77 — Project information — Questions and Answers
 
-MPI Magnesium; Updated 2026-09-22. [Open source](https://mpimagnesium.com/faq/).
+MPI Magnesium; Updated 2026-09-22. [Open source](https://mpimagnesium.com/faq/). Accessed 2026-09-27.
 
 **Locator:** Questions 2–4 and 18–19. **Supports:** Serpentinite feed; compound-first phases; metal only possible Phase 3; technology not selected.
 
@@ -2418,7 +2500,7 @@ MPI Magnesium; Updated 2026-09-22. [Open source](https://mpimagnesium.com/faq/).
 
 ### S78 — Notice: consolidated bankruptcy liquidation of Huiye and three related companies
 
-Court bankruptcy information platform / appointed administrator; 2026-04-30. [Open source](https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=40709488462a4166870b4d4f41cad46e).
+Court bankruptcy information platform / appointed administrator; 2026-04-30. [Open source](https://pccz.court.gov.cn/pcajxxw/pcgg/ggxq?id=40709488462a4166870b4d4f41cad46e). Accessed 2026-09-27.
 
 **Locator:** Opening paragraphs: 2020 acceptance; 9 March 2026 consolidation. **Supports:** Huiye legal liquidation status.
 
@@ -2426,7 +2508,7 @@ Court bankruptcy information platform / appointed administrator; 2026-04-30. [Op
 
 ### S79 — About Regal Metal and development history
 
-Regal Metal; Undated; timeline through 2026. [Open source](https://regal-metal.com/api/about.html).
+Regal Metal; Undated; timeline through 2026. [Open source](https://regal-metal.com/api/about.html). Accessed 2026-09-27.
 
 **Locator:** Company introduction, 1999/2017/2025 history, facility distribution. **Supports:** 30,000 t/y primary and 100,000 t/y alloy design claims; historical VW supply and DJI qualification.
 
@@ -2434,7 +2516,7 @@ Regal Metal; Undated; timeline through 2026. [Open source](https://regal-metal.c
 
 ### S80 — Salt Lake Magnesium produces magnesium again — anhydrous chloride electrolysis progress
 
-Huixin, published by China Nonferrous Metals News; 2025-05-13. [Open source](https://www.cnmn.com.cn/ShowNews1.aspx?id=461529).
+Huixin, published by China Nonferrous Metals News; 2025-05-13. [Open source](https://www.cnmn.com.cn/ShowNews1.aspx?id=461529). Accessed 2026-09-27.
 
 **Locator:** Melting/purification and electrolysis trial sections. **Supports:** Prepared-melt MgO impurity limit; 4# cell trial liquid metal and cast ingot amounts.
 
@@ -2442,7 +2524,7 @@ Huixin, published by China Nonferrous Metals News; 2025-05-13. [Open source](htt
 
 ### S81 — Zhu Kebing visits China Salt Lake and inspects safety
 
-China Minmetals; 2026-09-14. [Open source](https://cmnltd.minmetals.com.cn/jtdt/202609/t20260914_317704.html).
+China Minmetals; 2026-09-14. [Open source](https://cmnltd.minmetals.com.cn/jtdt/202609/t20260914_317704.html). Accessed 2026-09-27.
 
 **Locator:** 13 September site visit; 8·22 magnesium project monthly meeting. **Supports:** Expanded-trial closeout and pilot construction within the integrated magnesium project.
 
@@ -2450,7 +2532,7 @@ China Minmetals; 2026-09-14. [Open source](https://cmnltd.minmetals.com.cn/jtdt/
 
 ### S82 — 2026 Half-Year Report
 
-Baowu Magnesium; filing reproduced by Sina Finance; 2026-08-25. [Open source](https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12522497&stockid=002182).
+Baowu Magnesium; filing reproduced by Sina Finance; 2026-08-25. [Open source](https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12522497&stockid=002182). Accessed 2026-09-27.
 
 **Locator:** Management discussion: mining business and resource/industrial-chain advantages (report pp.10–12). **Supports:** Mine development boundaries; Gansu ferrosilicon first furnace; Anhui Baomei ramp-up.
 
@@ -2458,7 +2540,7 @@ Baowu Magnesium; filing reproduced by Sina Finance; 2026-08-25. [Open source](ht
 
 ### S83 — Magnesium Anodes — Wenxi Yinguang
 
-Newport Metals; Undated; current page reviewed 2026-09-27. [Open source](https://www.newportmetals.net/magnesium-anodes.html).
+Newport Metals; Undated; current page reviewed 2026-09-27. [Open source](https://www.newportmetals.net/magnesium-anodes.html). Accessed 2026-09-27.
 
 **Locator:** Wenxi Yinguang and Magnesium Anodes sections. **Supports:** Exclusive North American cast-anode distribution; pipe and tank protection markets.
 
@@ -2466,7 +2548,7 @@ Newport Metals; Undated; current page reviewed 2026-09-27. [Open source](https:/
 
 ### S84 — Asian Metal visits Shanxi Bada Magnesium
 
-Asian Metal; firsthand plant visit; 2026-03-03; visit 2026-01-24. [Open source](https://wap.asianmetal.com/cag/2026/visit2026030302En.shtml).
+Asian Metal; firsthand plant visit; 2026-03-03; visit 2026-01-24. [Open source](https://wap.asianmetal.com/cag/2026/visit2026030302En.shtml). Accessed 2026-09-27.
 
 **Locator:** Opening visit and company-description paragraphs. **Supports:** Current integrated mining, primary smelting, processing and recycling activity.
 
@@ -2474,7 +2556,7 @@ Asian Metal; firsthand plant visit; 2026-03-03; visit 2026-01-24. [Open source](
 
 ### S85 — Salt-lake industry moves toward broader development
 
-Qinghai Daily / Qinghai News; 2026-07-16. [Open source](https://www.qhnews.com/newscenter/system/2026/07/16/030583845.shtml).
+Qinghai Daily / Qinghai News; 2026-07-16. [Open source](https://www.qhnews.com/newscenter/system/2026/07/16/030583845.shtml). Accessed 2026-09-27.
 
 **Locator:** Industry-chain section: 金属镁10万吨达标达产. **Supports:** Reported design-operation milestone for 100,000 t/y magnesium project.
 
@@ -2482,7 +2564,7 @@ Qinghai Daily / Qinghai News; 2026-07-16. [Open source](https://www.qhnews.com/n
 
 ### S86 — Governor visits idle magnesium-ingot production unit
 
-Iran Ministry of Interior, attributed by KhabarFarsi; 2026-09-04 (1405/06/13). [Open source](https://khabarfarsi.com/w/moi.ir/date/14050613).
+Iran Ministry of Interior, attributed by KhabarFarsi; 2026-09-04 (1405/06/13). [Open source](https://khabarfarsi.com/w/moi.ir/date/14050613). Accessed 2026-09-27.
 
 **Locator:** 00:01 entry: بازدید استاندار خراسان جنوبی از واحد راکد تولید شمش منیزیم. **Supports:** Royal/Ferdows operation described as idle.
 
@@ -2490,7 +2572,7 @@ Iran Ministry of Interior, attributed by KhabarFarsi; 2026-09-04 (1405/06/13). [
 
 ### S87 — Leases & Permits — Special Competitive Lease Offering
 
-Utah Division of Forestry, Fire and State Lands; Undated; offering present September 2026. [Open source](https://ffsl.utah.gov/state-lands/sovereign-lands/permits/).
+Utah Division of Forestry, Fire and State Lands; Undated; offering present September 2026. [Open source](https://ffsl.utah.gov/state-lands/sovereign-lands/permits/). Accessed 2026-09-27.
 
 **Locator:** Competitive Lease Offerings: former US Magnesium site. **Supports:** Mineral-extraction and processing redevelopment invitation.
 
@@ -2498,7 +2580,7 @@ Utah Division of Forestry, Fire and State Lands; Undated; offering present Septe
 
 ### S88 — Magnesium industry development meeting at Jinwantong
 
-Fugu official account, reproduced by Mysteel; 2026-02-09; meeting 2026-02-04. [Open source](https://thj.m.mysteel.com/a/26020911/778E924175D0DCFE_abc.html).
+Fugu official account, reproduced by Mysteel; 2026-02-09; meeting 2026-02-04. [Open source](https://thj.m.mysteel.com/a/26020911/778E924175D0DCFE_abc.html). Accessed 2026-09-27.
 
 **Locator:** Final paragraph: silicothermic Mg99.95A demonstration line. **Supports:** Facility-specific silicothermic route and stable trial operation.
 
@@ -2506,7 +2588,7 @@ Fugu official account, reproduced by Mysteel; 2026-02-09; meeting 2026-02-04. [O
 
 ### S89 — Start of modernization and major repair
 
-Solikamsk Magnesium Works; 2026-02-17. [Open source](https://www.smw.ru/news/novosti/start-modernizatsii-i-kapremonta/).
+Solikamsk Magnesium Works; 2026-02-17. [Open source](https://www.smw.ru/news/novosti/start-modernizatsii-i-kapremonta/). Accessed 2026-09-27.
 
 **Locator:** Opening magnesium-electrolysis department paragraphs. **Supports:** Current carnallite dehydration and magnesium electrolysis process evidence.
 
@@ -2514,7 +2596,7 @@ Solikamsk Magnesium Works; 2026-02-17. [Open source](https://www.smw.ru/news/nov
 
 ### S90 — YIZUMI Powers Magnesium Mass Production for SERES & Baowu Magnesium
 
-YIZUMI; 2026-05-22. [Open source](https://www.yizumi.com/en/news/product/DCM/yizumi-powers-magnesium-mass-production-for-seres-baowu-magnesium).
+YIZUMI; 2026-05-22. [Open source](https://www.yizumi.com/en/news/product/DCM/yizumi-powers-magnesium-mass-production-for-seres-baowu-magnesium). Accessed 2026-09-27.
 
 **Locator:** Magnesium structural-part production announcement. **Supports:** SERES-related current downstream component chain.
 
@@ -2522,7 +2604,7 @@ YIZUMI; 2026-05-22. [Open source](https://www.yizumi.com/en/news/product/DCM/yiz
 
 ### S91 — ICL Reports Second Quarter 2026 Results
 
-ICL; 2026-08-05. [Open source](https://investors.icl-group.com/reports-news-and-events/press-releases/press-releases-details/2026/ICL-Reports-Second-Quarter-2026-Results/default.aspx).
+ICL; 2026-08-05. [Open source](https://investors.icl-group.com/reports-news-and-events/press-releases/press-releases-details/2026/ICL-Reports-Second-Quarter-2026-Results/default.aspx). Accessed 2026-09-27.
 
 **Locator:** Industrial Products / magnesium sales discussion. **Supports:** Newer financial reporting check.
 
@@ -2530,7 +2612,7 @@ ICL; 2026-08-05. [Open source](https://investors.icl-group.com/reports-news-and-
 
 ### S92 — Interim results for six months ended 30 June 2026
 
-REMT; filing mirror at FinancialFilings; 2026-08-31. [Open source](https://financialfilings.com/filings/rare-earth-magnesium-technology-group-holdings-limited/interim-quarterly-report/2026/60246212/).
+REMT; filing mirror at FinancialFilings; 2026-08-31. [Open source](https://financialfilings.com/filings/rare-earth-magnesium-technology-group-holdings-limited/interim-quarterly-report/2026/60246212/). Accessed 2026-09-27.
 
 **Locator:** Business review: magnesium-product sales volume. **Supports:** H1 2026 sales 1,680 t versus H1 2025 6,165 t.
 
@@ -2538,7 +2620,7 @@ REMT; filing mirror at FinancialFilings; 2026-08-31. [Open source](https://finan
 
 ### S93 — LMG Investor Presentation
 
-Latrobe Magnesium; issuer document mirrored by Market Index; 2026-09-22. [Open source](https://www.marketindex.com.au/asx/lmgn/announcements/lmg-investor-presentation-22092026-2A1698323).
+Latrobe Magnesium; issuer document mirrored by Market Index; 2026-09-22. [Open source](https://www.marketindex.com.au/asx/lmgn/announcements/lmg-investor-presentation-22092026-2A1698323). Accessed 2026-09-27.
 
 **Locator:** Slides 16–17: Phases 1B and 1C. **Supports:** 0.5 kt/y crude crowns followed by 0.5 kt/y refined ingots; same process stream.
 
@@ -2546,7 +2628,7 @@ Latrobe Magnesium; issuer document mirrored by Market Index; 2026-09-22. [Open s
 
 ### S94 — Convertible bond prospectus: historical Qinghai brine-purification contract
 
-Jiangsu Jiuwu Hi-Tech; issuer filing reproduced by Sina Finance; 2026-07-16. [Open source](https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12448670&stockid=300631).
+Jiangsu Jiuwu Hi-Tech; issuer filing reproduced by Sina Finance; 2026-07-16. [Open source](https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12448670&stockid=300631). Accessed 2026-09-27.
 
 **Locator:** Printed p. 1-1-168: other equity instruments / former Qinghai customers. **Supports:** Historical contract explicitly names the 100,000 t/y magnesium-metal plant and purchased brine-purification equipment/design services.
 
@@ -2554,7 +2636,7 @@ Jiangsu Jiuwu Hi-Tech; issuer filing reproduced by Sina Finance; 2026-07-16. [Op
 
 ### S95 — ASTM B92/B92M-17(2025): Unalloyed Magnesium Ingot and Stick for Remelting
 
-ASTM International; 2025-05-20. [Open source](https://store.astm.org/b0092_b0092m-17r25.html).
+ASTM International; 2025-05-20. [Open source](https://store.astm.org/b0092_b0092m-17r25.html). Accessed 2026-09-27.
 
 **Locator:** Public scope and abstract. **Supports:** Current edition, grade names and scope; composition and surface-cleanliness requirements.
 
@@ -2562,7 +2644,7 @@ ASTM International; 2025-05-20. [Open source](https://store.astm.org/b0092_b0092
 
 ### S96 — ISO 8287:2021: Unalloyed magnesium — Chemical composition
 
-International Organization for Standardization; 2021-06. [Open source](https://www.iso.org/standard/75101.html).
+International Organization for Standardization; 2021-06. [Open source](https://www.iso.org/standard/75101.html). Accessed 2026-09-27.
 
 **Locator:** Scope; edition and life-cycle record. **Supports:** Cast unalloyed magnesium from thermal or electrolytic routes; classification and testing scope.
 
@@ -2570,7 +2652,7 @@ International Organization for Standardization; 2021-06. [Open source](https://w
 
 ### S97 — Pure Magnesium Powders for Commercial Applications
 
-Luxfer Magtech; 2020. [Open source](https://luxfermagtech.com/wp-content/uploads/2020/07/Luxfer-Data-Sheets-Pure-Magnesium-Powders-for-Commercial-Applications-7.pdf).
+Luxfer Magtech; 2020. [Open source](https://luxfermagtech.com/wp-content/uploads/2020/07/Luxfer-Data-Sheets-Pure-Magnesium-Powders-for-Commercial-Applications-7.pdf). Accessed 2026-09-27.
 
 **Locator:** Pages 1–2; form/size and chemical composition tables. **Supports:** Published standard and ultra-high-purity powder compositions, forms and applications.
 
@@ -2578,7 +2660,7 @@ Luxfer Magtech; 2020. [Open source](https://luxfermagtech.com/wp-content/uploads
 
 ### S98 — AZ91D product specification
 
-MagReTech; Undated. [Open source](https://magretech.us/products/az91d/).
+MagReTech; Undated. [Open source](https://magretech.us/products/az91d/). Accessed 2026-09-27.
 
 **Locator:** Specification and applications. **Supports:** Supplier alloy composition ranges and selected trace-element values.
 
@@ -2586,7 +2668,7 @@ MagReTech; Undated. [Open source](https://magretech.us/products/az91d/).
 
 ### S99 — The effect of iron re-deposition on the corrosion of impurity-containing magnesium
 
-Höche et al.; Physical Chemistry Chemical Physics / PubMed; 2016-01-14. [Open source](https://pubmed.ncbi.nlm.nih.gov/26660298/).
+Höche et al.; Physical Chemistry Chemical Physics / PubMed; 2016-01-14. [Open source](https://pubmed.ncbi.nlm.nih.gov/26660298/). Accessed 2026-09-27.
 
 **Locator:** Abstract; DOI 10.1039/c5cp05577f. **Supports:** Experimental evidence of iron-impurity effects on magnesium corrosion.
 
@@ -2594,7 +2676,7 @@ Höche et al.; Physical Chemistry Chemical Physics / PubMed; 2016-01-14. [Open s
 
 ### S100 — Global Nonferrous Metals — Specifications Guide
 
-S&P Global / Platts; 2026-07. [Open source](https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/metals/nonferrous-specifications.pdf).
+S&P Global / Platts; 2026-07. [Open source](https://www.spglobal.com/content/dam/spglobal/ci/en/documents/platts/en/our-methodology/methodology-specifications/metals/nonferrous-specifications.pdf). Accessed 2026-09-27.
 
 **Locator:** Printed pp. 42–43: magnesium assessment table and explanations. **Supports:** US pure/alloy and Rotterdam assessments; quality, delivery, size and price units.
 
@@ -2602,7 +2684,7 @@ S&P Global / Platts; 2026-07. [Open source](https://www.spglobal.com/content/dam
 
 ### S101 — FOB Tianjin 9990 Magnesium Ingot: price definition
 
-Shanghai Metals Market; Undated; accessed 2026-09-27. [Open source](https://www.metal.com/magnesium/202105250002).
+Shanghai Metals Market; Undated; accessed 2026-09-27. [Open source](https://www.metal.com/magnesium/202105250002). Accessed 2026-09-27.
 
 **Locator:** Price details: SMM-MG-IG-005. **Supports:** 99.9% minimum ingot, GB/T 3499-2023 reference and FOB Tianjin USD/t assessment basis.
 
@@ -2610,7 +2692,7 @@ Shanghai Metals Market; Undated; accessed 2026-09-27. [Open source](https://www.
 
 ### S102 — Services: marketing, procurement, logistics and financing
 
-Wogen; Undated. [Open source](https://www.wogen.com/services/).
+Wogen; Undated. [Open source](https://www.wogen.com/services/). Accessed 2026-09-27.
 
 **Locator:** Four service categories. **Supports:** Roles of specialist commodity traders and long-term procurement.
 
@@ -2618,7 +2700,7 @@ Wogen; Undated. [Open source](https://www.wogen.com/services/).
 
 ### S103 — Special report 04/2026: Critical raw materials for the energy transition
 
-European Court of Auditors; 2026. [Open source](https://www.eca.europa.eu/ECAPublications/SR-2026-04/SR-2026-04_EN.pdf).
+European Court of Auditors; 2026. [Open source](https://www.eca.europa.eu/ECAPublications/SR-2026-04/SR-2026-04_EN.pdf). Accessed 2026-09-27.
 
 **Locator:** Paragraph 03 and Figure 1, printed pp. 4–5. **Supports:** China share of EU magnesium supply and historical statistical boundary.
 
@@ -2626,7 +2708,7 @@ European Court of Auditors; 2026. [Open source](https://www.eca.europa.eu/ECAPub
 
 ### S104 — High-potential magnesium anodes
 
-Houston Anodes; Undated. [Open source](https://houstonanodes.com/high-potential.html).
+Houston Anodes; Undated. [Open source](https://houstonanodes.com/high-potential.html). Accessed 2026-09-27.
 
 **Locator:** Chemical composition and electrochemical properties. **Supports:** Supplier-listed magnesium-anode impurity limits and separate electrochemical performance criteria.
 
@@ -2634,7 +2716,7 @@ Houston Anodes; Undated. [Open source](https://houstonanodes.com/high-potential.
 
 ### S105 — Incoterms 2020 checklist and flowcharts
 
-International Chamber of Commerce; 2024 update. [Open source](https://library.iccwbo.org/content/clp/Others/incoterms_2020_checklist_2024-update.pdf).
+International Chamber of Commerce; 2024 update. [Open source](https://library.iccwbo.org/content/clp/Others/incoterms_2020_checklist_2024-update.pdf). Accessed 2026-09-27.
 
 **Locator:** EXW, FOB, CIF and DDP selection guidance. **Supports:** Cost and delivery-risk distinctions between trade terms.
 
@@ -2642,7 +2724,7 @@ International Chamber of Commerce; 2024 update. [Open source](https://library.ic
 
 ### S106 — NACCS commodity codes, 1 January 2026 edition
 
-Japan Customs; 2026-01-01. [Open source](https://www.customs.go.jp/tariff/2026_01_01/naccscode202601_9.html).
+Japan Customs; 2026-01-01. [Open source](https://www.customs.go.jp/tariff/2026_01_01/naccscode202601_9.html). Accessed 2026-09-27.
 
 **Locator:** Heading 8104 entries. **Supports:** Separate categories for high-purity ingot, other ingot, scrap, powder/granules and other articles.
 
@@ -2650,7 +2732,7 @@ Japan Customs; 2026-01-01. [Open source](https://www.customs.go.jp/tariff/2026_0
 
 ### S107 — About Magnesium — production routes
 
-International Magnesium Association; Undated. [Open source](https://www.intlmag.org/page/basics_about_mg_ima).
+International Magnesium Association; Undated. [Open source](https://www.intlmag.org/page/basics_about_mg_ima). Accessed 2026-09-27.
 
 **Locator:** Where is Magnesium Found?. **Supports:** Thermal vapor/condensation sequence; molten-chloride electrolysis and indicative temperature range.
 
@@ -2658,7 +2740,7 @@ International Magnesium Association; Undated. [Open source](https://www.intlmag.
 
 ### S108 — AP-42 §12.12: Secondary Magnesium Smelting
 
-US Environmental Protection Agency; 1994-11. [Open source](https://www.epa.gov/sites/production/files/2020-11/documents/c12s12.pdf).
+US Environmental Protection Agency; 1994-11. [Open source](https://www.epa.gov/sites/production/files/2020-11/documents/c12s12.pdf). Accessed 2026-09-27.
 
 **Locator:** §12.12.2, p. 12.12-1. **Supports:** Sorting, remelting, flux treatment, settling and composition adjustment.
 
@@ -2666,7 +2748,7 @@ US Environmental Protection Agency; 1994-11. [Open source](https://www.epa.gov/s
 
 ### S109 — Microstructural insight into the thermal decomposition of MgCl2·6H2O examined by in-situ high-temperature X-ray powder diffraction
 
-Journal of Solid State Chemistry, vol. 322, article 123965; 2023-06. [Open source](https://www.sciencedirect.com/science/article/pii/S0022459623001330).
+Journal of Solid State Chemistry, vol. 322, article 123965; 2023-06. [Open source](https://www.sciencedirect.com/science/article/pii/S0022459623001330). Accessed 2026-09-27.
 
 **Locator:** Abstract and highlights; DOI 10.1016/j.jssc.2023.123965. **Supports:** Experimental evidence that heating hydrated MgCl2 can cause hydrolysis, oxychloride formation and MgO formation.
 
@@ -2674,7 +2756,7 @@ Journal of Solid State Chemistry, vol. 322, article 123965; 2023-06. [Open sourc
 
 ### S110 — Production of Magnesium Metal from Turkish Calcined Dolomite Using Vacuum Silicothermic Reduction Method
 
-Materials Science Forum 488–489, pp. 39–42; 2005. [Open source](https://www.scientific.net/MSF.488-489.39).
+Materials Science Forum 488–489, pp. 39–42; 2005. [Open source](https://www.scientific.net/MSF.488-489.39). Accessed 2026-09-27.
 
 **Locator:** Public abstract; DOI 10.4028/www.scientific.net/MSF.488-489.39. **Supports:** Experimental feed assays, ferrosilicon specification, 1 mbar and 1,200 °C test conditions.
 
@@ -2682,7 +2764,7 @@ Materials Science Forum 488–489, pp. 39–42; 2005. [Open source](https://www.
 
 ### S111 — Lightweight Materials for Automotive Application: An Assessment of Material Production Data for Magnesium and Carbon Fiber
 
-M.C. Johnson and J.L. Sullivan; Argonne National Laboratory; 2014. [Open source](https://publications.anl.gov/anlpubs/2014/09/107574.pdf).
+M.C. Johnson and J.L. Sullivan; Argonne National Laboratory; 2014. [Open source](https://publications.anl.gov/anlpubs/2014/09/107574.pdf). Accessed 2026-09-27.
 
 **Locator:** §2.1, printed pp. 4–10; Table 3, p. 7 (PDF p. 15); §2.2. **Supports:** Process chain, historical DLR 2013 input inventory, and limitations of energy comparisons.
 
@@ -2690,7 +2772,7 @@ M.C. Johnson and J.L. Sullivan; Argonne National Laboratory; 2014. [Open source]
 
 ### S112 — SCRREEN2 factsheet: Magnesium
 
-EU-funded SCRREEN2 project; 2023 file release. [Open source](https://scrreen.eu/wp-content/uploads/2023/03/SCRREEN2_factsheets_MAGNESIUM.pdf).
+EU-funded SCRREEN2 project; 2023 file release. [Open source](https://scrreen.eu/wp-content/uploads/2023/03/SCRREEN2_factsheets_MAGNESIUM.pdf). Accessed 2026-09-27.
 
 **Locator:** Supply / processing, pp. 21–22; Figure 16. **Supports:** Dolomite calcination, silicothermic reduction and magnesium condensation.
 
@@ -2698,7 +2780,7 @@ EU-funded SCRREEN2 project; 2023 file release. [Open source](https://scrreen.eu/
 
 ### S113 — Recycling Magnesium
 
-International Magnesium Association; Undated. [Open source](https://www.intlmag.org/page/sustain_recycle_ima).
+International Magnesium Association; Undated. [Open source](https://www.intlmag.org/page/sustain_recycle_ima). Accessed 2026-09-27.
 
 **Locator:** Methods for Recycling. **Supports:** Flux and fluxless recycling; scrap segregation; iron, nickel and copper control.
 
@@ -2706,7 +2788,7 @@ International Magnesium Association; Undated. [Open source](https://www.intlmag.
 
 ### S114 — Process — magnesium fabrication and recycling
 
-International Magnesium Association; Undated. [Open source](https://www.intlmag.org/page/resource_process_ima).
+International Magnesium Association; Undated. [Open source](https://www.intlmag.org/page/resource_process_ima). Accessed 2026-09-27.
 
 **Locator:** Process overview. **Supports:** Alloying, casting, wrought products and subsequent fabrication.
 
@@ -2714,7 +2796,7 @@ International Magnesium Association; Undated. [Open source](https://www.intlmag.
 
 ### S115 — Mineral Industry Surveys — Magnesium in the Second Quarter 2026
 
-US Geological Survey; 2026; data through 2026-08-12. [Open source](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/files/mis-2026q2-mgmet.pdf).
+US Geological Survey; 2026; data through 2026-08-12. [Open source](https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/files/mis-2026q2-mgmet.pdf). Accessed 2026-09-27.
 
 **Locator:** Table 1, PDF p. 2; General Information data-availability date. **Supports:** Revised 2025 and January–June 2026 US imports by product; category-specific magnesium-content basis.
 
@@ -2722,7 +2804,7 @@ US Geological Survey; 2026; data through 2026-08-12. [Open source](https://d9-wr
 
 ### S116 — Final Scientific/Technical Report: Industrial Scale-Up of Low-Cost Zero-Emissions Magnesium by INFINIUM Electrolysis
 
-INFINIUM / US Department of Energy, OSTI; 2018-03-22; project reporting period 2011-10-01 to 2017-06-30. [Open source](https://www.osti.gov/servlets/purl/1431302).
+INFINIUM / US Department of Energy, OSTI; 2018-03-22; project reporting period 2011-10-01 to 2017-06-30. [Open source](https://www.osti.gov/servlets/purl/1431302). Accessed 2026-09-27.
 
 **Locator:** Executive summary, PDF pp. 2–4; pure magnesium electrolysis and subsequent Mg–Nd master-alloy development. **Supports:** Historical US oxide-fed electrolysis; fluoride bath, oxygen-producing zirconia anodes, magnesium collection and durability challenges; later product shift.
 
@@ -2730,7 +2812,7 @@ INFINIUM / US Department of Energy, OSTI; 2018-03-22; project reporting period 2
 
 ### S117 — Project Selections for FOA 3105: Critical Material Innovation, Efficiency, and Alternatives — Set 4
 
-US Department of Energy; 2026 selection round; accessed 2026-09-27. [Open source](https://www.energy.gov/cmei/mining/project-selections-foa-3105-critical-material-innovation-efficiency-and-alternatives).
+US Department of Energy; 2026 selection round; accessed 2026-09-27. [Open source](https://www.energy.gov/cmei/mining/project-selections-foa-3105-critical-material-innovation-efficiency-and-alternatives). Accessed 2026-09-27.
 
 **Locator:** Area 1B: Domestic Primary Production of Magnesium Metal from Common Ore and Scrap Aluminum. **Supports:** Big Blue Technologies dolomite/aluminum-scrap route; 2,000-hour continuous-operation demonstration goal; planned DOE/non-DOE funding.
 
@@ -2738,7 +2820,7 @@ US Department of Energy; 2026 selection round; accessed 2026-09-27. [Open source
 
 ### S118 — Big Blue Technologies Breaks Ground on Commercial Demonstration Plant in Cheyenne
 
-Big Blue Technologies; 2026-04-15; status update 2026-08-12. [Open source](https://bigbluetech.com/commercial-demo/).
+Big Blue Technologies; 2026-04-15; status update 2026-08-12. [Open source](https://bigbluetech.com/commercial-demo/). Accessed 2026-09-27.
 
 **Locator:** Three-smelter capacity, January 2027 first-metal target and August construction update. **Supports:** Cheyenne demonstration site; Garrison Minerals site partner; company capacity target and construction status.
 
@@ -2746,7 +2828,7 @@ Big Blue Technologies; 2026-04-15; status update 2026-08-12. [Open source](https
 
 ### S119 — Pilot-Scale Validation Completed: BBT Moves to Build Commercial Smelter
 
-Big Blue Technologies; 2026-01-05. [Open source](https://bigbluetech.com/pilot-scale-validation-completed-bbt-moves-to-build-commercial-smelter/).
+Big Blue Technologies; 2026-01-05. [Open source](https://bigbluetech.com/pilot-scale-validation-completed-bbt-moves-to-build-commercial-smelter/). Accessed 2026-09-27.
 
 **Locator:** 2025 pilot campaigns, purity claim and planned commercial transition. **Supports:** Company-reported pilot magnesium above 99.9% purity; development evidence.
 
@@ -2754,12 +2836,76 @@ Big Blue Technologies; 2026-01-05. [Open source](https://bigbluetech.com/pilot-s
 
 ### S120 — Big Blue Technologies and Baymag Ink Supply Agreement
 
-Big Blue Technologies; 2025-01-01. [Open source](https://bigbluetech.com/big-blue-technologies-and-baymag-ink-supply-agreement/).
+Big Blue Technologies; 2025-01-01. [Open source](https://bigbluetech.com/big-blue-technologies-and-baymag-ink-supply-agreement/). Accessed 2026-09-27.
 
 **Locator:** Letter of Understanding; Baymag supplier description. **Supports:** Proposed purchased MgO supply from Canadian Baymag; separate from raw-dolomite process description.
 
 **Limit:** Letter of Understanding, not proof of deliveries. No time basis or explicit ton convention for the stated supply quantity. Earlier demonstration capacity is not carried forward as the latest target.
 
+### S121 — Identification and Description of Mineral Processing Sectors and Waste Streams — Magnesium and Magnesia from Brines
+
+US Environmental Protection Agency; 1998-04. [Open source](https://archive.epa.gov/epawaste/nonhaz/industrial/special/web/pdf/part6.pdf). Accessed 2026-09-28.
+
+**Locator:** PDF pp. 66–67 (zero-based pages 65–66), Hydrous Magnesium Chloride Feed and Exhibit 4; PDF p. 71, Magnesia from Brines. **Supports:** Historical Dow hydroxide precipitation, washing, acid conversion, chloride purification and hydrous-feed electrolysis; chlorine-to-HCl recycling; hydroxide calcination.
+
+**Limit:** Historical process account, not current plant status or a modern equipment specification. Hydrous chloride is an explicit Dow exception, not permission to feed wet hydroxide to a conventional dry-chloride cell.
+
+### S122 — Our Process — Magnesia Production
+
+Martin Marietta Magnesia Specialties; Undated. [Open source](https://magnesiaspecialties.com/company/process). Accessed 2026-09-28.
+
+**Locator:** Magnesia Production, three process paragraphs. **Supports:** Brine plus dolomitic lime; settling, filtration and washing; hydroxide slurry, powder and MgO product branches.
+
+**Limit:** Producer process description. No feed-to-metal recovery, available merchant capacity or metal-plant supply contract disclosed.
+
+### S123 — FloMag H — Magnesium Hydroxide Slurry for Wastewater Treatment
+
+Martin Marietta Magnesia Specialties; 2025-03-05 version. [Open source](https://www.magnesiaspecialties.com/technical-data-sheets/FloMag-H.pdf). Accessed 2026-09-28.
+
+**Locator:** One-page technical sheet: Aqueous Suspension; Dry Solids Basis; Packaging; Storage. **Supports:** Typical versus minimum solids and hydroxide assay; calcium typical value; bulk transport and storage requirements.
+
+**Limit:** PDF visually checked. Wastewater-treatment product, not certified metal-cell feed. Typical values are not guaranteed minima. Derived Mg content and slurry requirements are analyst calculations, not supplier metal yields.
+
+### S124 — MagChem MH 10 ULC — Specialty Grade Magnesium Hydroxide Powder
+
+Martin Marietta Magnesia Specialties; 2025-03-05 version. [Open source](https://www.magnesiaspecialties.com/technical-data-sheets/MagChem_MH_10_ULC.pdf). Accessed 2026-09-28.
+
+**Locator:** One-page technical sheet: Composition (Dry Basis), Free Moisture and Physical Properties. **Supports:** Brine/dolomitic-lime origin; dry hydroxide assay; CaO, SiO2, Fe2O3, Al2O3, chloride and sulfate limits; separate free moisture and loss on ignition.
+
+**Limit:** PDF visually checked. Oxide equivalents and hydroxide assay must not be added together. Product specification is not a universal magnesium-metal process acceptance standard.
+
+### S125 — Magnesium hydroxide — LUVOMAG standard grades
+
+Lehmann&Voss&Co. / LEHVOSS Magnesia; Undated. [Open source](https://www.lehvoss.de/en/Magnesia/products/magnesium-hydroxide). Accessed 2026-09-28.
+
+**Locator:** Typical-values table, natural Brucite row. **Supports:** Commercial natural brucite example: hydroxide and impurity values; granular and milled forms.
+
+**Limit:** Distributor typical values, not contractual limits or a representative assay of all brucite deposits. Mine, uncommitted tonnage and metal-process qualification are not given.
+
+### S126 — Influence of Operational Strategies for the Recovery of Magnesium Hydroxide from Brines at a Pilot Scale
+
+C. Morgante et al.; Industrial & Engineering Chemistry Research 61, 15355–15368; 2022-10-04. [Open source](https://iris.unipa.it/retrieve/5a7a0590-5b28-409f-8cd2-4ed1512bd3b1/acs.iecr.2c02935.pdf). Accessed 2026-09-28.
+
+**Locator:** DOI 10.1021/acs.iecr.2c02935; §2.1 and §4, printed pp. 15359 and 15365–15366. **Supports:** MgCl2/NaOH precipitation experiments; effects of operating conditions and seed recycling on settling and filtration.
+
+**Limit:** Original pilot research using synthetic MgCl2-only solutions. Not real-brine impurity validation, commercial metal output, or evidence of a current delivered feedstock price.
+
+### S127 — Magnesium Compounds Statistics and Information
+
+US Geological Survey; Undated overview; accessed 2026-09-28. [Open source](https://www.usgs.gov/centers/national-minerals-information-center/magnesium-compounds-statistics-and-information). Accessed 2026-09-28.
+
+**Locator:** Magnesium Compounds Insights and Data, introductory resource and use paragraphs. **Supports:** Commercial mineral and brine resource families; separate magnesium-compound and magnesium-metal statistics.
+
+**Limit:** General resource context only. No hydroxide market size, plant availability, price or new 2026 production figure is inferred.
+
+### S128 — Benefits of Using FloMag H Magnesium Hydroxide Slurry for Wastewater Treatment
+
+Martin Marietta Magnesia Specialties; 2022-02-07. [Open source](https://magnesiaspecialties.com/blogs/benefits-of-flomag-magnesium-hydroxide-slurry-for-wastewater-treatment). Accessed 2026-09-28.
+
+**Locator:** Synthetic High-Purity paragraph. **Supports:** Manistee, Michigan manufacturing location and underlying natural magnesium-rich brine.
+
+**Limit:** Dated supplier description. Marketing comparisons and exclusivity claims are not adopted; no available tonnage or metal-producer customer relationship is established.
+
 ## Downloadable data
 
-See [data dictionary](data/README.md), [producer directory](data/producers.csv), [feedstocks](data/feedstocks.csv), [output comparison](data/output.csv), [numeric observations](data/quantities.csv), [markets](data/markets.csv), [country series](data/countries.csv), [projects](data/projects.csv), [process guide and tables](processes.html), [purity and trade tables](quality-trade.html), [U.S. development case and tables](us-development.html), [slide-ready charts](charts.html), and [source register](data/sources.csv).
+See [data dictionary](data/README.md), [producer directory](data/producers.csv), [feedstocks](data/feedstocks.csv), [output comparison](data/output.csv), [numeric observations](data/quantities.csv), [markets](data/markets.csv), [country series](data/countries.csv), [projects](data/projects.csv), [process guide and tables](processes.html), [magnesium hydroxide feedstock and tables](magnesium-hydroxide.html), [purity and trade tables](quality-trade.html), [U.S. development case and tables](us-development.html), [slide-ready charts](charts.html), and [source register](data/sources.csv).

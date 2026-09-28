@@ -100,3 +100,15 @@ Added six charts from the existing source-checked dataset and the explicitly lab
 The global non-China segment is a residual from the rounded world total, not the sum of country entries. U.S. consumption remains the reported primary series. Import origins use the pooled 2021–2024 interval. Recycling shares describe recovery form, not end use. All charts carry source/method notes and a research cutoff. Versioned CSVs, a source register and rendering provenance accompany the PNG, SVG and six-page PDF files.
 
 All six rasterized PDF pages were visually inspected. Figure version 1 is linked explicitly from the report and website; the original data and site bundle remain available.
+
+## Magnesium hydroxide feedstock addition — 28 September 2026
+
+Added a dedicated feedstock page, both report formats and two CSV tables, with eight references (S121–S128). The base producer cutoff remains 27 September; the supplement and new source access dates are 28 September.
+
+- Used EPA's historical Dow account to distinguish hydroxide preparation, chloride conversion and the historical partially hydrated chloride-cell exception. Gross stoichiometric HCl demand is not presented as net purchased acid.
+- Visually checked the FloMag H and MagChem MH 10 ULC technical sheets, both version 5 March 2025. Retained typical versus specified values, slurry solids versus dry assay, sulfate expressed as SO3, and free moisture versus loss on ignition.
+- Treated LEHVOSS brucite values as one distributor's typical grade, not universal mineral composition or guaranteed limits. Martin Marietta's Manistee evidence establishes a domestic compound chain, not spare capacity or a metal supply contract.
+- Read the original 2022 precipitation study and retained its synthetic MgCl2-only feed limitation. Did not use inaccessible 2025 pilot-paper or 2026 USGS compound-PDF tables; the USGS overview supports only resource and statistical boundaries.
+- Calculated theoretical mass ratios using stated atomic masses. Slurry examples use published assays and explicitly assumed metal recovery; they are excluded from observed production data. The runnable checker verifies mass closure and all six exported ratios.
+
+This addition was reviewed in the main task, without a new independent-agent review. Public evidence reviewed here does not establish a delivered bulk price, available annual hydroxide tonnage, universal cell-feed specification or complete commercial hydroxide-to-metal economics.

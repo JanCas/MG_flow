@@ -16,6 +16,7 @@ COUNTRY = D['countries']
 QUALITY_TRADE = D['quality_trade']
 PROCESSES = D['processes']
 US_DEVELOPMENT = D['us_development']
+HYDROXIDE = D['magnesium_hydroxide']
 FIGURE_DIR = Path('figures/v1')
 CHARTS = json.loads((ROOT/FIGURE_DIR/'charts.json').read_text())['charts']
 E = html.escape
@@ -116,7 +117,7 @@ def mdtable(headers,rows):
     def cell(v): return md(v).replace('|','\\|').replace('\n',' ')
     return '\n'.join(['| '+' | '.join(headers)+' |','| '+' | '.join('---' for _ in headers)+' |']+['| '+' | '.join(cell(c) for c in row)+' |' for row in rows])+'\n\n'
 
-NAV=[('Overview','index.html'),('Producers','producers/index.html'),('Comparisons','compare/output.html'),('Processes','processes.html'),('Quality & trade','quality-trade.html'),('U.S. case','us-development.html'),('Charts','charts.html'),('Projects','projects/index.html'),('Sources','sources.html')]
+NAV=[('Overview','index.html'),('Producers','producers/index.html'),('Comparisons','compare/output.html'),('Processes','processes.html'),('Hydroxide','magnesium-hydroxide.html'),('Quality & trade','quality-trade.html'),('U.S. case','us-development.html'),('Charts','charts.html'),('Projects','projects/index.html'),('Sources','sources.html')]
 def writepage(path,title,eyebrow,lead,body,active=''):
     depth=len(Path(path).parts)-1
     prefix='../'*depth
@@ -127,7 +128,7 @@ def writepage(path,title,eyebrow,lead,body,active=''):
 <link rel="stylesheet" href="{prefix}assets/style.css"><link rel="icon" href="{prefix}assets/favicon.svg" type="image/svg+xml"></head>
 <body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="{prefix}index.html"><span class="element">Mg<small>12</small></span><span>MAGNESIUM<br><b>ATLAS</b></span></a><nav aria-label="Main navigation">{nav}</nav><a class="report-link" href="{prefix}report.md" download>Download report ↓</a></header>
 <main id="main"><div class="page-head"><p class="eyebrow">{E(eyebrow)}</p><h1>{E(title)}</h1>{para(lead,'lead')}</div>{body}</main>
-<footer><div><strong>Magnesium Atlas</strong><p>Research cutoff · 27 September 2026</p></div><div><a href="{prefix}methods.html">Scope &amp; methods</a><a href="{prefix}downloads.html">Data downloads</a><a href="{prefix}report.html">Read full report</a></div><p class="footer-note">Metric tonnes unless a source unit is explicitly qualified. Capacity, output, sales and recycled metal are distinct measures.</p></footer></body></html>'''
+<footer><div><strong>Magnesium Atlas</strong><p>Base research · 27 September 2026<br>Hydroxide supplement · 28 September 2026</p></div><div><a href="{prefix}methods.html">Scope &amp; methods</a><a href="{prefix}downloads.html">Data downloads</a><a href="{prefix}report.html">Read full report</a></div><p class="footer-note">Metric tonnes unless a source unit is explicitly qualified. Capacity, output, sales and recycled metal are distinct measures.</p></footer></body></html>'''
     target=ROOT/path; target.parent.mkdir(exist_ok=True,parents=True); target.write_text(content)
     GENERATED.append(path)
 
@@ -179,6 +180,7 @@ def create_comparisons():
             headers=['Producer / facility','Feedstock and source','Production route']
             title='Feedstocks & production routes'
             lead='Follow the raw resource to the prepared feed and the metal-making step. Detailed assays, purchasing boundaries and gaps are in each profile.'
+            content+='<p><a href="../magnesium-hydroxide.html">Magnesium hydroxide: sources, grades and conversion to metal ↗</a></p>'
         elif kind=='output':
             headers=['Producer','Actual or other reported quantity (t)','Reporting period / basis','Capacity (t/y)','Main products']
             title='Output & capacity'
@@ -235,6 +237,8 @@ def create_sources():
             used.append('<a href="processes.html">Production processes</a>')
         if '['+s['id']+']' in json.dumps(US_DEVELOPMENT):
             used.append('<a href="us-development.html">U.S. electrochemical development case</a>')
+        if '['+s['id']+']' in json.dumps(HYDROXIDE):
+            used.append('<a href="magnesium-hydroxide.html">Magnesium hydroxide feedstock</a>')
         if any(s['id'] in c['source_ids'] for c in CHARTS):
             used.append('<a href="charts.html">Slide-ready charts</a>')
         content+=f'<section class="source-entry" id="{s["id"]}"><span class="source-id">{s["id"]}</span><div><h2><a href="{E(s["url"],quote=True)}">{E(s["title"])}</a></h2><p class="small">{E(s["publisher"])} · {E(s["date"])} · Accessed {s["accessed"]}</p><p><strong>Where to look:</strong> {E(s["locator"])}</p><p><strong>Supports:</strong> {E(s["supports"])}</p>'
@@ -260,10 +264,11 @@ def create_home():
         body+=f'<article><h3><a href="{url}">{title} ↗</a></h3>{para(text)}</article>'
     body+='</div></section>'
     body+='<section><h2>A case for domestic U.S. production</h2>'+para(US_DEVELOPMENT['lead'])+'<a class="button" href="us-development.html">Explore the electrochemical development case ↗</a><a class="text-link" href="charts.html">Slide-ready charts ↗</a></section>'
+    body+='<section><h2>Magnesium hydroxide as a feedstock</h2>'+para(HYDROXIDE['lead'])+'<a class="button" href="magnesium-hydroxide.html">Explore hydroxide sources, grades &amp; mass balances ↗</a></section>'
     writepage('index.html','Magnesium, from feedstock to market','Global producers / Research cutoff 27 September 2026',intro,body,'Overview')
 
 def create_methods():
-    body='<p><a href="review.md">Read the accuracy, freshness and readability review log (27 September 2026) ↗</a></p>'
+    body='<p><a href="review.md">Read the accuracy, freshness and readability review log (27–28 September 2026) ↗</a></p><p>The base producer review retains its 27 September cutoff. The <a href="magnesium-hydroxide.html">magnesium hydroxide supplement</a> adds research accessed 28 September 2026; it does not refresh unrelated producer statistics.</p>'
     body+=''.join(f'<section><h2>{title}</h2>{para(text)}</section>' for title,text in METHODS)
     body+='<section><h2>Initial producer and source-coverage assessment</h2>'+table(['Producer set','Reason for inclusion','Source coverage','Interpretation'],[[rich(c) for c in r] for r in COVERAGE])+'</section>'
     writepage('methods.html','Scope, sources & limitations','Research methods','The unit of comparison matters as much as the number. These rules keep virgin metal, recycling, alloys and mineral compounds separate.',body)
@@ -296,6 +301,8 @@ def create_topic(path,topic,label):
     body=f'<div class="article-layout">{toc}<article>{topic_content(topic)}</article></div>'
     if path=='us-development.html':
         body='<p class="download-line"><a href="charts.html">Six slide-ready charts ↗</a> <a href="magnesium-slide-charts.zip" download>Download chart pack ↓</a></p>'+body
+    if path in ('us-development.html','processes.html'):
+        body='<p><a href="magnesium-hydroxide.html">Magnesium hydroxide feedstock: origins, conversion routes and grade requirements ↗</a></p>'+body
     writepage(path,topic['title'],label+' / Magnesium metal',topic['lead'],body,label)
 
 def create_charts():
@@ -329,7 +336,7 @@ def create_data():
     export_csv('quantities.csv',list(D['quantities'][0])+['source_url'],[[q[k] for k in D['quantities'][0]]+[S[q['source_id']]['url']] for q in D['quantities']])
     export_csv('countries.csv',list(COUNTRY[0])+['basis_note','source_url'],[[c[k] for k in COUNTRY[0]]+['USGS primary series; 2025 estimated; zero represents source dash; basis columns distinguish reported from estimated; world rounded',S['S01']['url']] for c in COUNTRY])
     export_csv('projects.csv',['project_id','project','location','status','feedstock','route','capacity_or_output_with_units','future_markets','gaps','source_ids','source_urls'],[[j['id'],j['name'],j['location']]+[plain(j[k]) for k in ['status','feedstock','route','volume','markets','gaps']]+[' '.join(j['sources']),urls(j['sources'])] for j in J])
-    for section in QUALITY_TRADE['sections']+PROCESSES['sections']+US_DEVELOPMENT['sections']:
+    for section in QUALITY_TRADE['sections']+PROCESSES['sections']+US_DEVELOPMENT['sections']+HYDROXIDE['sections']:
         if 'table' not in section: continue
         t=section['table']; rows=[]
         for row in t['rows']:
@@ -338,7 +345,7 @@ def create_data():
         export_csv(t['csv'],t['headers']+['source_ids','source_urls'],rows)
     definitions='''# Data dictionary
 
-Research cutoff: 2026-09-27. CSV encoding: UTF-8 with BOM. Delimiter: comma. Quoted cells may contain commas; use a CSV parser.
+Base research cutoff: 2026-09-27; magnesium hydroxide supplement: 2026-09-28. CSV encoding: UTF-8 with BOM. Delimiter: comma. Quoted cells may contain commas; use a CSV parser.
 
 - `research.json`: canonical full research text, profiles, projects, national figures, numeric observations and source register. `[Snn]` tokens refer to source IDs.
 - `producers.csv`: company/facility directory and classification; one row per profile, sometimes a consolidated group, never automatically additive.
@@ -361,12 +368,16 @@ Research cutoff: 2026-09-27. CSV encoding: UTF-8 with BOM. Delimiter: comma. Quo
 - `us-trade.csv`: revised 2025 and first-half 2026 imports from USGS Q2 2026, preserving category-specific weight bases; not a primary-ingot market size.
 - `us-route-options.csv`: chloride electrolysis, oxide electrolysis and an alternative thermal route; commercial precedents versus research/development.
 - `us-development-criteria.csv`: proposed engineering evidence requirements, with units and supporting context; not observed performance or published pass/fail thresholds.
+- `hydroxide-products.csv`: commercial hydroxide examples; slurry solids, dry chemistry, typical values and specification limits retain their original bases. No metal-feed qualification or available tonnage is inferred.
+- `hydroxide-mass-balance.csv`: analyst stoichiometric and slurry calculations in t/t Mg; theoretical recovery and an assumed 90% case, not measured industrial consumption. Gross HCl demand is distinct from net purchased acid.
 
 The six quality/trade exports use descriptive column headers, including units, plus source IDs and URLs. Their source text lives under `quality_trade` in `research.json`. Percentage limits, ranges and inequalities remain text to preserve their meaning. Empty or undisclosed limits are not zero.
 
 The two process exports follow the same convention and live under `processes`. The historical DLR 2013 case is separate from current producer data. RIMA's recipe uses the explicit stage-i statement and flags the conflicting stage-iv wording.
 
 The four U.S. development exports live under `us_development`. Recommendations are analyst synthesis, distinct from source observations. The illustrative electricity calculation uses assumed inputs, not a plant estimate or current tariff. The Big Blue project retains the company's undefined “tons/year” label; it is not converted into the metric numeric-observation table.
+
+The two hydroxide exports live under `magnesium_hydroxide`, with its own 2026-09-28 cutoff. Mass-balance source links identify the chemical route or supplier inputs, not published plant yields. These calculations are excluded from `quantities.csv` and primary-metal totals. See the section for atomic masses, formula and recovery assumptions.
 
 Unknown company annual quantities are omitted from `quantities.csv`, and explained in `output.csv`; absence does not mean zero. Values are not normalized to elemental magnesium unless the original source uses that basis. Grades retain Mg, MgO, MgCl2, alloy or product basis. No confidential number is inferred from plant capacity.
 '''
@@ -378,17 +389,19 @@ Unknown company annual quantities are omitted from `quantities.csv`, and explain
     files[3:3]=[('data/'+s['table']['csv'],s['title'],'Purity and trade reference table with source links') for s in QUALITY_TRADE['sections'] if 'table' in s]
     files[3:3]=[('data/'+s['table']['csv'],s['title'],'Production-process reference table with source links') for s in PROCESSES['sections'] if 'table' in s]
     files[3:3]=[('data/'+s['table']['csv'],s['title'],'U.S. development evidence and analysis with source links') for s in US_DEVELOPMENT['sections'] if 'table' in s]
+    files[3:3]=[('data/'+s['table']['csv'],s['title'],'Magnesium hydroxide feedstock evidence and labeled calculations') for s in HYDROXIDE['sections'] if 'table' in s]
     body='<div class="downloads">'+''.join(f'<a href="{f}"'+(' download' if not f.endswith('.html') else '')+f'><h2>{t} <span>↓</span></h2><p>{d}</p><small>{f}</small></a>' for f,t,d in files)+'</div>'
     writepage('downloads.html','Report & data downloads','Reusable research / Open files','Download the report and source-linked tables. Read the data dictionary before combining quantities with different reporting boundaries.',body)
 
 def create_report():
-    report=['# Global magnesium metal producers\n\nResearch cutoff: **27 September 2026**. Tonnages are metric unless an explicitly labeled source uses an undefined “tons” basis.\n\nRead the [accuracy, freshness and readability review log](review.md), or browse the [slide-ready charts](charts.html) with [versioned data and methods](figures/v1/MANIFEST.md).\n\n']
-    report+=['## Contents\n\n- [Overview](#overview)\n- [Leading producers and source coverage](#leading-producers-and-source-coverage)\n- [Country context](#country-context)\n- [How magnesium metal is produced](#how-magnesium-metal-is-produced)\n- [Purity requirements and commodity flows](#purity-requirements-and-commodity-flows)\n- [A U.S. case for electrochemical magnesium](#a-us-case-for-electrochemical-magnesium)\n- [Comparisons](#comparisons)\n- [Producer profiles](#producer-profiles)\n- [Proposed and developing projects](#proposed-and-developing-projects)\n- [Methods and gaps](#methods-and-gaps)\n- [Source register](#source-register)\n\n']
+    report=['# Global magnesium metal producers\n\nBase research cutoff: **27 September 2026**. Magnesium hydroxide supplement: **28 September 2026**. Tonnages are metric unless an explicitly labeled source uses an undefined “tons” basis.\n\nRead the [accuracy, freshness and readability review log](review.md), or browse the [slide-ready charts](charts.html) with [versioned data and methods](figures/v1/MANIFEST.md).\n\n']
+    report+=['## Contents\n\n- [Overview](#overview)\n- [Leading producers and source coverage](#leading-producers-and-source-coverage)\n- [Country context](#country-context)\n- [How magnesium metal is produced](#how-magnesium-metal-is-produced)\n- [Magnesium hydroxide as a feedstock](#magnesium-hydroxide-as-a-feedstock)\n- [Purity requirements and commodity flows](#purity-requirements-and-commodity-flows)\n- [A U.S. case for electrochemical magnesium](#a-us-case-for-electrochemical-magnesium)\n- [Comparisons](#comparisons)\n- [Producer profiles](#producer-profiles)\n- [Proposed and developing projects](#proposed-and-developing-projects)\n- [Methods and gaps](#methods-and-gaps)\n- [Source register](#source-register)\n\n']
     report+=['## Overview\n\n']+[f'### {t}\n\n{md(v)}\n\n' for t,v in SUMMARY]
     report+=['## Leading producers and source coverage\n\nThe initial screening prioritized major commercial primary suppliers and the source quality needed to answer the five questions. Recent annual company output is the weakest common field. Inclusion below is not a current ranking.\n\n',mdtable(['Producer set','Reason for inclusion','Source coverage','Interpretation'],COVERAGE)]
     report+=['## Country context\n\nUSGS MCS 2026 primary-magnesium series. The 2025 column is estimated; 2024 remains a national statistical figure rather than a company account. Capacity can include idle plants. [S01]\n\n',mdtable(['Country','2024 production, mostly estimates (t)','2025 production, estimate (t)','2025 capacity, mixed basis (t/y)'],[[c['country']]+['—' if c[k]==0 else f'{c[k]:,.0f}' for k in ['output_2024_t','output_2025_estimate_t','capacity_2025_t_per_y']] for c in COUNTRY])]
     report+=['— means zero in the source. The 2024 China and Israel entries are reported; other nonzero 2024 production is estimated. Capacity for the US, Israel and Türkiye is reported; other capacity is estimated. World totals are rounded. China’s share is about 86% on this one USGS basis. Baowu cites CNIA’s higher final 2025 China primary figure of 1,093,500 t (+6.6%) and alloy output of 428,400 t (+8.0%). These cannot be spliced into the USGS world series. Fugu’s separately reported 557,700 t primary output and 802,500 t/y capacity are regional totals overlapping its individual firms. [S01] [S02] [S53]\n\n']
     report+=['## How magnesium metal is produced\n\n'+md(PROCESSES['lead'])+'\n\n',topic_content(PROCESSES,markdown=True)]
+    report+=['## Magnesium hydroxide as a feedstock\n\n'+md(HYDROXIDE['lead'])+'\n\n',topic_content(HYDROXIDE,markdown=True)]
     report+=['## Purity requirements and commodity flows\n\n'+md(QUALITY_TRADE['lead'])+'\n\n',topic_content(QUALITY_TRADE,markdown=True)]
     report+=['## A U.S. case for electrochemical magnesium\n\n'+md(US_DEVELOPMENT['lead'])+'\n\n',topic_content(US_DEVELOPMENT,markdown=True)]
     report+=['## Comparisons\n\nThese tables preserve incompatible bases. Follow the profile for actual-versus-capacity qualifications and status. No producer total is computed.\n\n']
@@ -405,8 +418,8 @@ def create_report():
                 else:rows.append([p['name'],p['buyers'],p['intermediate'],p['applications']+' '+p['relationship']])
             report+=[mdtable(headers,rows)]
     report+=['## Producer profiles\n\n']
-    reporthtml='<p><a href="charts.html">Browse six slide-ready charts</a> · <a href="figures/v1/magnesium-slide-charts.pdf">Read the chart PDF</a></p><nav class="tabs" aria-label="Report contents"><a href="#overview">Overview</a><a href="#coverage">Coverage</a><a href="#production-processes">Processes</a><a href="#quality-trade">Quality &amp; trade</a><a href="#us-development">U.S. case</a><a href="#profiles">Profiles</a><a href="#projects">Projects</a><a href="#methods">Methods</a><a href="sources.html">Source catalog</a></nav>'
-    reporthtml+='<section id="overview"><h2>Overview</h2>'+''.join('<h3>'+t+'</h3>'+para(v) for t,v in SUMMARY)+'</section><section id="coverage"><h2>Leading producers and source coverage</h2>'+table(['Producer set','Reason for inclusion','Coverage','Interpretation'],[[rich(v) for v in r] for r in COVERAGE])+'</section><section><h2>Country context</h2>'+countrytable()+para('Sources and definitions: [S01]. Alternative Chinese series and country estimates are discussed under methods.')+'</section><section><h2>Producer comparisons</h2><p><a href="compare/feedstocks.html">Feedstocks and routes</a> · <a href="compare/output.html">Output and capacity</a> · <a href="compare/markets.html">Buyers and applications</a></p></section><section id="production-processes"><h2>How magnesium metal is produced</h2>'+topic_content(PROCESSES)+'</section><section id="quality-trade"><h2>Purity requirements &amp; commodity flows</h2>'+topic_content(QUALITY_TRADE)+'</section><section id="us-development"><h2>A U.S. case for electrochemical magnesium</h2>'+para(US_DEVELOPMENT['lead'])+topic_content(US_DEVELOPMENT)+'</section><section id="profiles"><h2>Producer profiles</h2></section>'
+    reporthtml='<p><a href="charts.html">Browse six slide-ready charts</a> · <a href="figures/v1/magnesium-slide-charts.pdf">Read the chart PDF</a></p><nav class="tabs" aria-label="Report contents"><a href="#overview">Overview</a><a href="#coverage">Coverage</a><a href="#production-processes">Processes</a><a href="#magnesium-hydroxide">Hydroxide</a><a href="#quality-trade">Quality &amp; trade</a><a href="#us-development">U.S. case</a><a href="#profiles">Profiles</a><a href="#projects">Projects</a><a href="#methods">Methods</a><a href="sources.html">Source catalog</a></nav>'
+    reporthtml+='<section id="overview"><h2>Overview</h2>'+''.join('<h3>'+t+'</h3>'+para(v) for t,v in SUMMARY)+'</section><section id="coverage"><h2>Leading producers and source coverage</h2>'+table(['Producer set','Reason for inclusion','Coverage','Interpretation'],[[rich(v) for v in r] for r in COVERAGE])+'</section><section><h2>Country context</h2>'+countrytable()+para('Sources and definitions: [S01]. Alternative Chinese series and country estimates are discussed under methods.')+'</section><section><h2>Producer comparisons</h2><p><a href="compare/feedstocks.html">Feedstocks and routes</a> · <a href="compare/output.html">Output and capacity</a> · <a href="compare/markets.html">Buyers and applications</a></p></section><section id="production-processes"><h2>How magnesium metal is produced</h2>'+topic_content(PROCESSES)+'</section><section id="magnesium-hydroxide"><h2>Magnesium hydroxide as a feedstock</h2>'+para(HYDROXIDE['lead'])+topic_content(HYDROXIDE)+'</section><section id="quality-trade"><h2>Purity requirements &amp; commodity flows</h2>'+topic_content(QUALITY_TRADE)+'</section><section id="us-development"><h2>A U.S. case for electrochemical magnesium</h2>'+para(US_DEVELOPMENT['lead'])+topic_content(US_DEVELOPMENT)+'</section><section id="profiles"><h2>Producer profiles</h2></section>'
     for group,ids in GROUPS:
         report+=[f'### {group}\n\n']
         for id in ids:
@@ -427,13 +440,13 @@ def create_report():
         reporthtml+='</article>'
     report+=['## Methods and gaps\n\n']+[f'### {t}\n\n{md(v)}\n\n' for t,v in METHODS]
     reporthtml+='<section id="methods"><h2>Methods and gaps</h2>'+''.join('<h3>'+t+'</h3>'+para(v) for t,v in METHODS)+f'</section><section><h2>Complete source register</h2><p><a href="sources.html">Read all {len(S)} source entries and access notes</a> · <a href="data/sources.csv" download>Download register CSV</a></p></section>'
-    report+=['## Source register\n\nAll sources accessed 27 September 2026. Locators are document sections or printed page references where available. A reference may be a company filing hosted by a mirror; that limitation is explicit.\n\n']
+    report+=['## Source register\n\nSources accessed 27–28 September 2026; each entry records its access date. Locators are document sections or printed page references where available. A reference may be a company filing hosted by a mirror; that limitation is explicit.\n\n']
     for s in S.values():
-        report += [f'### {s["id"]} — {s["title"]}\n\n{s["publisher"]}; {s["date"]}. [Open source]({s["url"]}).\n\n**Locator:** {s["locator"]}. **Supports:** {s["supports"]}.\n\n'+(f'**Limit:** {s["limitation"]}\n\n' if s['limitation'] else '')]
-    report+=['## Downloadable data\n\nSee [data dictionary](data/README.md), [producer directory](data/producers.csv), [feedstocks](data/feedstocks.csv), [output comparison](data/output.csv), [numeric observations](data/quantities.csv), [markets](data/markets.csv), [country series](data/countries.csv), [projects](data/projects.csv), [process guide and tables](processes.html), [purity and trade tables](quality-trade.html), [U.S. development case and tables](us-development.html), [slide-ready charts](charts.html), and [source register](data/sources.csv).\n']
+        report += [f'### {s["id"]} — {s["title"]}\n\n{s["publisher"]}; {s["date"]}. [Open source]({s["url"]}). Accessed {s["accessed"]}.\n\n**Locator:** {s["locator"]}. **Supports:** {s["supports"]}.\n\n'+(f'**Limit:** {s["limitation"]}\n\n' if s['limitation'] else '')]
+    report+=['## Downloadable data\n\nSee [data dictionary](data/README.md), [producer directory](data/producers.csv), [feedstocks](data/feedstocks.csv), [output comparison](data/output.csv), [numeric observations](data/quantities.csv), [markets](data/markets.csv), [country series](data/countries.csv), [projects](data/projects.csv), [process guide and tables](processes.html), [magnesium hydroxide feedstock and tables](magnesium-hydroxide.html), [purity and trade tables](quality-trade.html), [U.S. development case and tables](us-development.html), [slide-ready charts](charts.html), and [source register](data/sources.csv).\n']
     # Resolve overview tokens; already-linked citations are left unchanged.
     (ROOT/'report.md').write_text(md(''.join(report)))
-    writepage('report.html','Global magnesium metal producers','Full report / 27 September 2026','A source-linked review of producers, feedstock provenance, production volumes and markets. Download the Markdown report for the complete tables and source register.',reporthtml)
+    writepage('report.html','Global magnesium metal producers','Full report / Base 27 September · Hydroxide supplement 28 September 2026','A source-linked review of producers, feedstock provenance, production volumes and markets. Download the Markdown report for the complete tables and source register.',reporthtml)
 
 def main():
     create_profiles(); create_directory(); create_comparisons(); create_projects()
@@ -441,6 +454,7 @@ def main():
     create_topic('quality-trade.html',QUALITY_TRADE,'Quality & trade')
     create_topic('processes.html',PROCESSES,'Processes')
     create_topic('us-development.html',US_DEVELOPMENT,'U.S. case')
+    create_topic('magnesium-hydroxide.html',HYDROXIDE,'Hydroxide')
     create_charts(); create_data(); create_report()
     (ROOT/'.nojekyll').touch()
     (ROOT/'data/site-manifest.json').write_text(json.dumps(GENERATED,indent=2)+'\n')
